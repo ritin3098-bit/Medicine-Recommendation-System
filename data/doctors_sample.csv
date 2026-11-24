@@ -1,0 +1,650 @@
+doctor_id,name,specialty,city,hospital,experience_years,rating,reviews,fee_inr,languages,teleconsult,available_days,registration_no,source,is_sample
+SD0001,Sample Doctor 0001,General Physician,Ludhiana,Sample Clinic Ludhiana C,21,4.0,698,450,English;Hindi;Punjabi,False,"Mon,Wed,Fri",SAMPLE-0001,synthetic demo data,True
+SD0002,Sample Doctor 0002,General Physician,Ludhiana,Sample Clinic Ludhiana A,6,4.1,717,450,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0002,synthetic demo data,True
+SD0003,Sample Doctor 0003,General Physician,Ludhiana,Sample Hospital Ludhiana B,18,4.5,455,750,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0003,synthetic demo data,True
+SD0004,Sample Doctor 0004,Pulmonologist,Ludhiana,Sample Clinic Ludhiana B,9,4.2,772,550,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0004,synthetic demo data,True
+SD0005,Sample Doctor 0005,Pulmonologist,Ludhiana,Sample Hospital Ludhiana D,17,4.1,741,950,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0005,synthetic demo data,True
+SD0006,Sample Doctor 0006,Pulmonologist,Ludhiana,Sample Hospital Ludhiana D,2,4.0,872,700,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0006,synthetic demo data,True
+SD0007,Sample Doctor 0007,Cardiologist,Ludhiana,Sample Clinic Ludhiana A,24,4.3,141,1200,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0007,synthetic demo data,True
+SD0008,Sample Doctor 0008,Cardiologist,Ludhiana,Sample Clinic Ludhiana D,3,3.8,668,950,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0008,synthetic demo data,True
+SD0009,Sample Doctor 0009,Endocrinologist,Ludhiana,Sample Hospital Ludhiana C,22,3.9,595,800,English;Hindi;Punjabi,True,Mon-Fri,SAMPLE-0009,synthetic demo data,True
+SD0010,Sample Doctor 0010,Endocrinologist,Ludhiana,Sample Clinic Ludhiana B,14,4.5,354,1000,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0010,synthetic demo data,True
+SD0011,Sample Doctor 0011,Endocrinologist,Ludhiana,Sample Clinic Ludhiana D,7,3.9,324,850,English;Hindi;Punjabi,True,Mon-Sat,SAMPLE-0011,synthetic demo data,True
+SD0012,Sample Doctor 0012,Gastroenterologist,Ludhiana,Sample Hospital Ludhiana D,2,4.5,605,1200,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0012,synthetic demo data,True
+SD0013,Sample Doctor 0013,Gastroenterologist,Ludhiana,Sample Clinic Ludhiana A,18,4.2,850,950,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0013,synthetic demo data,True
+SD0014,Sample Doctor 0014,Hepatologist,Ludhiana,Sample Clinic Ludhiana A,20,4.4,341,1050,English;Hindi;Punjabi,False,"Mon,Wed,Fri",SAMPLE-0014,synthetic demo data,True
+SD0015,Sample Doctor 0015,Hepatologist,Ludhiana,Sample Hospital Ludhiana D,15,4.7,642,1200,English;Hindi;Punjabi,True,Mon-Sat,SAMPLE-0015,synthetic demo data,True
+SD0016,Sample Doctor 0016,Nephrologist,Ludhiana,Sample Hospital Ludhiana C,17,4.5,676,800,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0016,synthetic demo data,True
+SD0017,Sample Doctor 0017,Nephrologist,Ludhiana,Sample Clinic Ludhiana A,5,4.0,593,950,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0017,synthetic demo data,True
+SD0018,Sample Doctor 0018,Nephrologist,Ludhiana,Sample Hospital Ludhiana B,11,4.5,616,950,English;Hindi;Punjabi,False,"Mon,Wed,Fri",SAMPLE-0018,synthetic demo data,True
+SD0019,Sample Doctor 0019,Urologist,Ludhiana,Sample Hospital Ludhiana B,33,4.3,519,1150,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0019,synthetic demo data,True
+SD0020,Sample Doctor 0020,Urologist,Ludhiana,Sample Hospital Ludhiana D,29,4.4,779,1150,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0020,synthetic demo data,True
+SD0021,Sample Doctor 0021,Urologist,Ludhiana,Sample Clinic Ludhiana A,9,4.4,819,650,English;Hindi;Punjabi,True,Mon-Fri,SAMPLE-0021,synthetic demo data,True
+SD0022,Sample Doctor 0022,Neurologist,Ludhiana,Sample Hospital Ludhiana D,35,4.3,308,1250,English;Hindi;Punjabi,True,Mon-Sat,SAMPLE-0022,synthetic demo data,True
+SD0023,Sample Doctor 0023,Neurologist,Ludhiana,Sample Hospital Ludhiana D,34,4.2,470,1100,English;Hindi;Punjabi,False,"Mon,Wed,Fri",SAMPLE-0023,synthetic demo data,True
+SD0024,Sample Doctor 0024,Psychiatrist,Ludhiana,Sample Clinic Ludhiana B,15,4.1,89,850,English;Hindi;Punjabi,True,Mon-Sat,SAMPLE-0024,synthetic demo data,True
+SD0025,Sample Doctor 0025,Psychiatrist,Ludhiana,Sample Clinic Ludhiana C,10,4.1,612,1100,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0025,synthetic demo data,True
+SD0026,Sample Doctor 0026,Rheumatologist,Ludhiana,Sample Hospital Ludhiana D,23,3.8,360,550,English;Hindi;Punjabi,True,Mon-Fri,SAMPLE-0026,synthetic demo data,True
+SD0027,Sample Doctor 0027,Rheumatologist,Ludhiana,Sample Clinic Ludhiana D,22,4.0,103,900,English;Hindi;Punjabi,False,Mon-Fri,SAMPLE-0027,synthetic demo data,True
+SD0028,Sample Doctor 0028,Rheumatologist,Ludhiana,Sample Hospital Ludhiana C,6,4.6,865,1000,English;Hindi;Punjabi,False,Mon-Sat,SAMPLE-0028,synthetic demo data,True
+SD0029,Sample Doctor 0029,Orthopedist,Ludhiana,Sample Hospital Ludhiana C,15,4.2,630,1100,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0029,synthetic demo data,True
+SD0030,Sample Doctor 0030,Orthopedist,Ludhiana,Sample Clinic Ludhiana C,29,4.3,800,1250,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0030,synthetic demo data,True
+SD0031,Sample Doctor 0031,Dermatologist,Ludhiana,Sample Hospital Ludhiana A,10,4.7,229,700,English;Hindi;Punjabi,False,Mon-Sat,SAMPLE-0031,synthetic demo data,True
+SD0032,Sample Doctor 0032,Dermatologist,Ludhiana,Sample Hospital Ludhiana A,5,4.6,151,550,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0032,synthetic demo data,True
+SD0033,Sample Doctor 0033,Ophthalmologist,Ludhiana,Sample Hospital Ludhiana C,29,4.1,197,700,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0033,synthetic demo data,True
+SD0034,Sample Doctor 0034,Ophthalmologist,Ludhiana,Sample Hospital Ludhiana A,29,5.0,810,550,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0034,synthetic demo data,True
+SD0035,Sample Doctor 0035,Ophthalmologist,Ludhiana,Sample Hospital Ludhiana A,5,4.3,116,800,English;Hindi;Punjabi,False,"Mon,Wed,Fri",SAMPLE-0035,synthetic demo data,True
+SD0036,Sample Doctor 0036,ENT Specialist,Ludhiana,Sample Hospital Ludhiana D,30,4.3,690,700,English;Hindi;Punjabi,False,Mon-Fri,SAMPLE-0036,synthetic demo data,True
+SD0037,Sample Doctor 0037,ENT Specialist,Ludhiana,Sample Clinic Ludhiana C,28,4.5,89,1000,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0037,synthetic demo data,True
+SD0038,Sample Doctor 0038,Infectious Disease Specialist,Ludhiana,Sample Hospital Ludhiana A,26,4.0,420,650,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0038,synthetic demo data,True
+SD0039,Sample Doctor 0039,Infectious Disease Specialist,Ludhiana,Sample Clinic Ludhiana C,9,3.8,570,850,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0039,synthetic demo data,True
+SD0040,Sample Doctor 0040,Infectious Disease Specialist,Ludhiana,Sample Hospital Ludhiana D,24,4.6,532,650,English;Hindi;Punjabi,False,Mon-Fri,SAMPLE-0040,synthetic demo data,True
+SD0041,Sample Doctor 0041,Oncologist,Ludhiana,Sample Hospital Ludhiana D,12,4.1,336,700,English;Hindi;Punjabi,True,Mon-Sat,SAMPLE-0041,synthetic demo data,True
+SD0042,Sample Doctor 0042,Oncologist,Ludhiana,Sample Hospital Ludhiana B,22,4.3,76,1000,English;Hindi;Punjabi,True,Mon-Sat,SAMPLE-0042,synthetic demo data,True
+SD0043,Sample Doctor 0043,Oncologist,Ludhiana,Sample Clinic Ludhiana A,32,4.3,120,650,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0043,synthetic demo data,True
+SD0044,Sample Doctor 0044,Hematologist,Ludhiana,Sample Hospital Ludhiana D,12,4.5,438,700,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0044,synthetic demo data,True
+SD0045,Sample Doctor 0045,Hematologist,Ludhiana,Sample Clinic Ludhiana D,14,3.8,409,1100,English;Hindi;Punjabi,False,Mon-Sat,SAMPLE-0045,synthetic demo data,True
+SD0046,Sample Doctor 0046,Hematologist,Ludhiana,Sample Clinic Ludhiana D,24,3.4,652,950,English;Hindi;Punjabi,False,Mon-Sat,SAMPLE-0046,synthetic demo data,True
+SD0047,Sample Doctor 0047,Gynecologist,Ludhiana,Sample Hospital Ludhiana A,27,4.7,483,1250,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0047,synthetic demo data,True
+SD0048,Sample Doctor 0048,Gynecologist,Ludhiana,Sample Clinic Ludhiana A,17,3.7,581,1300,English;Hindi;Punjabi,False,"Mon,Wed,Fri",SAMPLE-0048,synthetic demo data,True
+SD0049,Sample Doctor 0049,Gynecologist,Ludhiana,Sample Clinic Ludhiana D,22,4.4,357,700,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0049,synthetic demo data,True
+SD0050,Sample Doctor 0050,Pediatrician,Ludhiana,Sample Clinic Ludhiana A,17,4.3,308,400,English;Hindi;Punjabi,False,Mon-Fri,SAMPLE-0050,synthetic demo data,True
+SD0051,Sample Doctor 0051,Pediatrician,Ludhiana,Sample Hospital Ludhiana A,15,4.2,21,600,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0051,synthetic demo data,True
+SD0052,Sample Doctor 0052,Pediatrician,Ludhiana,Sample Clinic Ludhiana B,15,4.2,29,900,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0052,synthetic demo data,True
+SD0053,Sample Doctor 0053,Vascular Surgeon,Ludhiana,Sample Clinic Ludhiana C,14,4.5,828,1300,English;Hindi;Punjabi,True,Mon-Sat,SAMPLE-0053,synthetic demo data,True
+SD0054,Sample Doctor 0054,Vascular Surgeon,Ludhiana,Sample Hospital Ludhiana A,34,4.3,403,700,English;Hindi;Punjabi,False,"Mon,Wed,Fri",SAMPLE-0054,synthetic demo data,True
+SD0055,Sample Doctor 0055,Emergency Medicine,Ludhiana,Sample Clinic Ludhiana A,4,3.9,140,650,English;Hindi;Punjabi,True,Mon-Sat,SAMPLE-0055,synthetic demo data,True
+SD0056,Sample Doctor 0056,Emergency Medicine,Ludhiana,Sample Clinic Ludhiana A,17,4.7,846,1050,English;Hindi;Punjabi,False,"Mon,Wed,Fri",SAMPLE-0056,synthetic demo data,True
+SD0057,Sample Doctor 0057,Physiotherapist,Ludhiana,Sample Hospital Ludhiana A,27,3.8,206,650,English;Hindi;Punjabi,True,Mon-Sat,SAMPLE-0057,synthetic demo data,True
+SD0058,Sample Doctor 0058,Physiotherapist,Ludhiana,Sample Clinic Ludhiana A,22,4.1,437,750,English;Hindi;Punjabi,True,Mon-Fri,SAMPLE-0058,synthetic demo data,True
+SD0059,Sample Doctor 0059,Physiotherapist,Ludhiana,Sample Hospital Ludhiana C,30,4.3,465,650,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0059,synthetic demo data,True
+SD0060,Sample Doctor 0060,General Physician,Chandigarh,Sample Clinic Chandigarh B,8,4.3,307,750,English;Hindi;Punjabi,False,Mon-Sat,SAMPLE-0060,synthetic demo data,True
+SD0061,Sample Doctor 0061,General Physician,Chandigarh,Sample Hospital Chandigarh C,34,4.5,663,500,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0061,synthetic demo data,True
+SD0062,Sample Doctor 0062,General Physician,Chandigarh,Sample Hospital Chandigarh D,12,5.0,885,400,English;Hindi;Punjabi,True,Mon-Sat,SAMPLE-0062,synthetic demo data,True
+SD0063,Sample Doctor 0063,Pulmonologist,Chandigarh,Sample Clinic Chandigarh D,28,4.3,746,1100,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0063,synthetic demo data,True
+SD0064,Sample Doctor 0064,Pulmonologist,Chandigarh,Sample Clinic Chandigarh C,13,4.5,273,1100,English;Hindi;Punjabi,True,Mon-Fri,SAMPLE-0064,synthetic demo data,True
+SD0065,Sample Doctor 0065,Pulmonologist,Chandigarh,Sample Hospital Chandigarh D,35,4.6,298,650,English;Hindi;Punjabi,True,Mon-Fri,SAMPLE-0065,synthetic demo data,True
+SD0066,Sample Doctor 0066,Cardiologist,Chandigarh,Sample Clinic Chandigarh B,21,4.4,93,1150,English;Hindi;Punjabi,False,Mon-Fri,SAMPLE-0066,synthetic demo data,True
+SD0067,Sample Doctor 0067,Cardiologist,Chandigarh,Sample Clinic Chandigarh D,34,4.0,205,1050,English;Hindi;Punjabi,False,Mon-Fri,SAMPLE-0067,synthetic demo data,True
+SD0068,Sample Doctor 0068,Endocrinologist,Chandigarh,Sample Clinic Chandigarh B,16,4.2,190,1150,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0068,synthetic demo data,True
+SD0069,Sample Doctor 0069,Endocrinologist,Chandigarh,Sample Hospital Chandigarh C,24,4.1,862,850,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0069,synthetic demo data,True
+SD0070,Sample Doctor 0070,Endocrinologist,Chandigarh,Sample Clinic Chandigarh C,34,4.7,79,950,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0070,synthetic demo data,True
+SD0071,Sample Doctor 0071,Gastroenterologist,Chandigarh,Sample Hospital Chandigarh A,23,4.1,685,1000,English;Hindi;Punjabi,True,Mon-Sat,SAMPLE-0071,synthetic demo data,True
+SD0072,Sample Doctor 0072,Gastroenterologist,Chandigarh,Sample Hospital Chandigarh B,31,4.6,669,1100,English;Hindi;Punjabi,False,Mon-Fri,SAMPLE-0072,synthetic demo data,True
+SD0073,Sample Doctor 0073,Hepatologist,Chandigarh,Sample Clinic Chandigarh C,7,4.8,420,1150,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0073,synthetic demo data,True
+SD0074,Sample Doctor 0074,Hepatologist,Chandigarh,Sample Hospital Chandigarh C,5,4.2,503,1100,English;Hindi;Punjabi,True,Mon-Fri,SAMPLE-0074,synthetic demo data,True
+SD0075,Sample Doctor 0075,Nephrologist,Chandigarh,Sample Clinic Chandigarh D,19,4.6,144,850,English;Hindi;Punjabi,False,"Mon,Wed,Fri",SAMPLE-0075,synthetic demo data,True
+SD0076,Sample Doctor 0076,Nephrologist,Chandigarh,Sample Clinic Chandigarh D,17,3.7,807,850,English;Hindi;Punjabi,False,Mon-Sat,SAMPLE-0076,synthetic demo data,True
+SD0077,Sample Doctor 0077,Urologist,Chandigarh,Sample Hospital Chandigarh C,30,3.9,599,1000,English;Hindi;Punjabi,True,Mon-Sat,SAMPLE-0077,synthetic demo data,True
+SD0078,Sample Doctor 0078,Urologist,Chandigarh,Sample Hospital Chandigarh A,23,4.5,265,1300,English;Hindi;Punjabi,True,Mon-Fri,SAMPLE-0078,synthetic demo data,True
+SD0079,Sample Doctor 0079,Neurologist,Chandigarh,Sample Hospital Chandigarh A,21,4.2,255,850,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0079,synthetic demo data,True
+SD0080,Sample Doctor 0080,Neurologist,Chandigarh,Sample Clinic Chandigarh B,18,3.9,120,1200,English;Hindi;Punjabi,True,Mon-Sat,SAMPLE-0080,synthetic demo data,True
+SD0081,Sample Doctor 0081,Psychiatrist,Chandigarh,Sample Hospital Chandigarh B,35,4.6,379,1150,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0081,synthetic demo data,True
+SD0082,Sample Doctor 0082,Psychiatrist,Chandigarh,Sample Hospital Chandigarh D,30,4.5,337,700,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0082,synthetic demo data,True
+SD0083,Sample Doctor 0083,Psychiatrist,Chandigarh,Sample Clinic Chandigarh C,19,4.0,53,1150,English;Hindi;Punjabi,True,Mon-Sat,SAMPLE-0083,synthetic demo data,True
+SD0084,Sample Doctor 0084,Rheumatologist,Chandigarh,Sample Clinic Chandigarh C,10,4.2,346,1050,English;Hindi;Punjabi,True,Mon-Fri,SAMPLE-0084,synthetic demo data,True
+SD0085,Sample Doctor 0085,Rheumatologist,Chandigarh,Sample Hospital Chandigarh A,19,4.3,150,1300,English;Hindi;Punjabi,True,Mon-Sat,SAMPLE-0085,synthetic demo data,True
+SD0086,Sample Doctor 0086,Orthopedist,Chandigarh,Sample Hospital Chandigarh B,15,4.0,63,1150,English;Hindi;Punjabi,False,"Mon,Wed,Fri",SAMPLE-0086,synthetic demo data,True
+SD0087,Sample Doctor 0087,Orthopedist,Chandigarh,Sample Hospital Chandigarh A,3,4.2,291,900,English;Hindi;Punjabi,False,Mon-Fri,SAMPLE-0087,synthetic demo data,True
+SD0088,Sample Doctor 0088,Orthopedist,Chandigarh,Sample Clinic Chandigarh C,29,4.3,691,800,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0088,synthetic demo data,True
+SD0089,Sample Doctor 0089,Dermatologist,Chandigarh,Sample Hospital Chandigarh A,6,3.6,211,650,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0089,synthetic demo data,True
+SD0090,Sample Doctor 0090,Dermatologist,Chandigarh,Sample Hospital Chandigarh D,11,4.0,199,700,English;Hindi;Punjabi,True,Mon-Sat,SAMPLE-0090,synthetic demo data,True
+SD0091,Sample Doctor 0091,Ophthalmologist,Chandigarh,Sample Hospital Chandigarh B,6,4.4,413,750,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0091,synthetic demo data,True
+SD0092,Sample Doctor 0092,Ophthalmologist,Chandigarh,Sample Clinic Chandigarh A,7,4.4,367,1150,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0092,synthetic demo data,True
+SD0093,Sample Doctor 0093,Ophthalmologist,Chandigarh,Sample Clinic Chandigarh D,21,4.5,602,1050,English;Hindi;Punjabi,False,Mon-Fri,SAMPLE-0093,synthetic demo data,True
+SD0094,Sample Doctor 0094,ENT Specialist,Chandigarh,Sample Hospital Chandigarh A,34,4.4,132,800,English;Hindi;Punjabi,True,Mon-Sat,SAMPLE-0094,synthetic demo data,True
+SD0095,Sample Doctor 0095,ENT Specialist,Chandigarh,Sample Clinic Chandigarh C,33,3.8,339,1050,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0095,synthetic demo data,True
+SD0096,Sample Doctor 0096,ENT Specialist,Chandigarh,Sample Hospital Chandigarh A,34,4.9,691,950,English;Hindi;Punjabi,True,Mon-Fri,SAMPLE-0096,synthetic demo data,True
+SD0097,Sample Doctor 0097,Infectious Disease Specialist,Chandigarh,Sample Clinic Chandigarh C,22,4.4,380,1100,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0097,synthetic demo data,True
+SD0098,Sample Doctor 0098,Infectious Disease Specialist,Chandigarh,Sample Hospital Chandigarh A,20,4.5,168,900,English;Hindi;Punjabi,False,Mon-Sat,SAMPLE-0098,synthetic demo data,True
+SD0099,Sample Doctor 0099,Oncologist,Chandigarh,Sample Clinic Chandigarh C,25,3.7,169,550,English;Hindi;Punjabi,False,Mon-Fri,SAMPLE-0099,synthetic demo data,True
+SD0100,Sample Doctor 0100,Oncologist,Chandigarh,Sample Hospital Chandigarh A,6,4.1,46,700,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0100,synthetic demo data,True
+SD0101,Sample Doctor 0101,Hematologist,Chandigarh,Sample Hospital Chandigarh D,26,4.3,633,1150,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0101,synthetic demo data,True
+SD0102,Sample Doctor 0102,Hematologist,Chandigarh,Sample Hospital Chandigarh C,21,4.9,496,600,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0102,synthetic demo data,True
+SD0103,Sample Doctor 0103,Hematologist,Chandigarh,Sample Clinic Chandigarh D,32,4.3,283,900,English;Hindi;Punjabi,False,"Mon,Wed,Fri",SAMPLE-0103,synthetic demo data,True
+SD0104,Sample Doctor 0104,Gynecologist,Chandigarh,Sample Clinic Chandigarh D,23,4.8,156,1100,English;Hindi;Punjabi,False,Mon-Fri,SAMPLE-0104,synthetic demo data,True
+SD0105,Sample Doctor 0105,Gynecologist,Chandigarh,Sample Hospital Chandigarh A,2,4.6,506,700,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0105,synthetic demo data,True
+SD0106,Sample Doctor 0106,Pediatrician,Chandigarh,Sample Hospital Chandigarh B,3,4.7,774,550,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0106,synthetic demo data,True
+SD0107,Sample Doctor 0107,Pediatrician,Chandigarh,Sample Hospital Chandigarh A,22,4.7,246,400,English;Hindi;Punjabi,True,Mon-Fri,SAMPLE-0107,synthetic demo data,True
+SD0108,Sample Doctor 0108,Vascular Surgeon,Chandigarh,Sample Clinic Chandigarh D,33,4.4,72,950,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0108,synthetic demo data,True
+SD0109,Sample Doctor 0109,Vascular Surgeon,Chandigarh,Sample Hospital Chandigarh D,32,4.6,722,600,English;Hindi;Punjabi,False,"Mon,Wed,Fri",SAMPLE-0109,synthetic demo data,True
+SD0110,Sample Doctor 0110,Emergency Medicine,Chandigarh,Sample Clinic Chandigarh D,2,4.4,8,700,English;Hindi;Punjabi,False,"Mon,Wed,Fri",SAMPLE-0110,synthetic demo data,True
+SD0111,Sample Doctor 0111,Emergency Medicine,Chandigarh,Sample Hospital Chandigarh A,11,4.0,731,750,English;Hindi;Punjabi,False,"Mon,Wed,Fri",SAMPLE-0111,synthetic demo data,True
+SD0112,Sample Doctor 0112,Physiotherapist,Chandigarh,Sample Hospital Chandigarh C,15,4.4,162,700,English;Hindi;Punjabi,False,Mon-Sat,SAMPLE-0112,synthetic demo data,True
+SD0113,Sample Doctor 0113,Physiotherapist,Chandigarh,Sample Hospital Chandigarh C,24,3.9,553,800,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0113,synthetic demo data,True
+SD0114,Sample Doctor 0114,General Physician,Amritsar,Sample Hospital Amritsar D,16,3.7,180,500,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0114,synthetic demo data,True
+SD0115,Sample Doctor 0115,Pulmonologist,Amritsar,Sample Clinic Amritsar C,6,4.5,759,850,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0115,synthetic demo data,True
+SD0116,Sample Doctor 0116,Pulmonologist,Amritsar,Sample Hospital Amritsar C,20,4.5,159,600,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0116,synthetic demo data,True
+SD0117,Sample Doctor 0117,Cardiologist,Amritsar,Sample Hospital Amritsar D,15,4.0,226,1200,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0117,synthetic demo data,True
+SD0118,Sample Doctor 0118,Cardiologist,Amritsar,Sample Hospital Amritsar A,25,3.7,175,1250,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0118,synthetic demo data,True
+SD0119,Sample Doctor 0119,Endocrinologist,Amritsar,Sample Hospital Amritsar D,19,3.5,431,650,English;Hindi;Punjabi,True,Mon-Fri,SAMPLE-0119,synthetic demo data,True
+SD0120,Sample Doctor 0120,Gastroenterologist,Amritsar,Sample Clinic Amritsar D,29,4.0,107,750,English;Hindi;Punjabi,False,Mon-Fri,SAMPLE-0120,synthetic demo data,True
+SD0121,Sample Doctor 0121,Gastroenterologist,Amritsar,Sample Clinic Amritsar A,20,3.8,148,1050,English;Hindi;Punjabi,True,Mon-Fri,SAMPLE-0121,synthetic demo data,True
+SD0122,Sample Doctor 0122,Hepatologist,Amritsar,Sample Hospital Amritsar A,11,4.1,772,650,English;Hindi;Punjabi,True,Mon-Sat,SAMPLE-0122,synthetic demo data,True
+SD0123,Sample Doctor 0123,Nephrologist,Amritsar,Sample Hospital Amritsar B,26,4.1,254,800,English;Hindi;Punjabi,False,"Mon,Wed,Fri",SAMPLE-0123,synthetic demo data,True
+SD0124,Sample Doctor 0124,Urologist,Amritsar,Sample Hospital Amritsar B,27,4.1,196,1250,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0124,synthetic demo data,True
+SD0125,Sample Doctor 0125,Neurologist,Amritsar,Sample Hospital Amritsar C,17,4.5,128,1000,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0125,synthetic demo data,True
+SD0126,Sample Doctor 0126,Psychiatrist,Amritsar,Sample Clinic Amritsar D,18,4.3,311,1050,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0126,synthetic demo data,True
+SD0127,Sample Doctor 0127,Rheumatologist,Amritsar,Sample Hospital Amritsar D,26,4.1,86,1250,English;Hindi;Punjabi,True,Mon-Fri,SAMPLE-0127,synthetic demo data,True
+SD0128,Sample Doctor 0128,Orthopedist,Amritsar,Sample Clinic Amritsar D,4,4.6,832,950,English;Hindi;Punjabi,False,Mon-Fri,SAMPLE-0128,synthetic demo data,True
+SD0129,Sample Doctor 0129,Orthopedist,Amritsar,Sample Clinic Amritsar C,35,4.2,827,850,English;Hindi;Punjabi,False,"Mon,Wed,Fri",SAMPLE-0129,synthetic demo data,True
+SD0130,Sample Doctor 0130,Dermatologist,Amritsar,Sample Clinic Amritsar D,18,3.8,241,1250,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0130,synthetic demo data,True
+SD0131,Sample Doctor 0131,Dermatologist,Amritsar,Sample Clinic Amritsar B,24,3.6,367,900,English;Hindi;Punjabi,True,Mon-Sat,SAMPLE-0131,synthetic demo data,True
+SD0132,Sample Doctor 0132,Ophthalmologist,Amritsar,Sample Hospital Amritsar A,4,4.3,42,1050,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0132,synthetic demo data,True
+SD0133,Sample Doctor 0133,ENT Specialist,Amritsar,Sample Hospital Amritsar A,19,4.2,252,1100,English;Hindi;Punjabi,True,Mon-Fri,SAMPLE-0133,synthetic demo data,True
+SD0134,Sample Doctor 0134,ENT Specialist,Amritsar,Sample Clinic Amritsar B,28,3.7,170,1050,English;Hindi;Punjabi,False,Mon-Fri,SAMPLE-0134,synthetic demo data,True
+SD0135,Sample Doctor 0135,Infectious Disease Specialist,Amritsar,Sample Clinic Amritsar C,3,4.5,824,750,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0135,synthetic demo data,True
+SD0136,Sample Doctor 0136,Oncologist,Amritsar,Sample Hospital Amritsar C,27,4.0,141,600,English;Hindi;Punjabi,False,Mon-Fri,SAMPLE-0136,synthetic demo data,True
+SD0137,Sample Doctor 0137,Oncologist,Amritsar,Sample Hospital Amritsar A,28,4.0,182,750,English;Hindi;Punjabi,False,Mon-Sat,SAMPLE-0137,synthetic demo data,True
+SD0138,Sample Doctor 0138,Hematologist,Amritsar,Sample Clinic Amritsar D,3,4.2,794,1100,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0138,synthetic demo data,True
+SD0139,Sample Doctor 0139,Hematologist,Amritsar,Sample Hospital Amritsar D,2,4.0,648,600,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0139,synthetic demo data,True
+SD0140,Sample Doctor 0140,Gynecologist,Amritsar,Sample Hospital Amritsar B,19,4.7,30,850,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0140,synthetic demo data,True
+SD0141,Sample Doctor 0141,Gynecologist,Amritsar,Sample Hospital Amritsar C,22,4.6,222,1250,English;Hindi;Punjabi,False,"Mon,Wed,Fri",SAMPLE-0141,synthetic demo data,True
+SD0142,Sample Doctor 0142,Pediatrician,Amritsar,Sample Hospital Amritsar B,2,3.7,892,450,English;Hindi;Punjabi,False,Mon-Sat,SAMPLE-0142,synthetic demo data,True
+SD0143,Sample Doctor 0143,Vascular Surgeon,Amritsar,Sample Hospital Amritsar A,26,3.9,812,800,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0143,synthetic demo data,True
+SD0144,Sample Doctor 0144,Physiotherapist,Amritsar,Sample Clinic Amritsar A,20,4.9,25,500,English;Hindi;Punjabi,False,Mon-Sat,SAMPLE-0144,synthetic demo data,True
+SD0145,Sample Doctor 0145,Physiotherapist,Amritsar,Sample Clinic Amritsar C,29,4.4,546,400,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0145,synthetic demo data,True
+SD0146,Sample Doctor 0146,General Physician,Jalandhar,Sample Hospital Jalandhar A,14,4.0,624,650,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0146,synthetic demo data,True
+SD0147,Sample Doctor 0147,Pulmonologist,Jalandhar,Sample Hospital Jalandhar A,30,4.7,755,1200,English;Hindi;Punjabi,True,Mon-Sat,SAMPLE-0147,synthetic demo data,True
+SD0148,Sample Doctor 0148,Cardiologist,Jalandhar,Sample Hospital Jalandhar B,14,4.8,10,700,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0148,synthetic demo data,True
+SD0149,Sample Doctor 0149,Cardiologist,Jalandhar,Sample Clinic Jalandhar C,31,4.1,807,750,English;Hindi;Punjabi,False,Mon-Fri,SAMPLE-0149,synthetic demo data,True
+SD0150,Sample Doctor 0150,Endocrinologist,Jalandhar,Sample Hospital Jalandhar A,3,3.6,637,600,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0150,synthetic demo data,True
+SD0151,Sample Doctor 0151,Endocrinologist,Jalandhar,Sample Hospital Jalandhar C,16,4.1,327,650,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0151,synthetic demo data,True
+SD0152,Sample Doctor 0152,Gastroenterologist,Jalandhar,Sample Clinic Jalandhar B,32,4.7,562,1000,English;Hindi;Punjabi,True,Mon-Fri,SAMPLE-0152,synthetic demo data,True
+SD0153,Sample Doctor 0153,Hepatologist,Jalandhar,Sample Hospital Jalandhar B,25,4.2,281,1300,English;Hindi;Punjabi,True,Mon-Fri,SAMPLE-0153,synthetic demo data,True
+SD0154,Sample Doctor 0154,Hepatologist,Jalandhar,Sample Hospital Jalandhar B,16,4.1,299,750,English;Hindi;Punjabi,True,Mon-Sat,SAMPLE-0154,synthetic demo data,True
+SD0155,Sample Doctor 0155,Nephrologist,Jalandhar,Sample Hospital Jalandhar C,31,4.1,454,1050,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0155,synthetic demo data,True
+SD0156,Sample Doctor 0156,Nephrologist,Jalandhar,Sample Clinic Jalandhar D,34,4.5,445,1200,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0156,synthetic demo data,True
+SD0157,Sample Doctor 0157,Urologist,Jalandhar,Sample Hospital Jalandhar D,26,4.9,507,1250,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0157,synthetic demo data,True
+SD0158,Sample Doctor 0158,Urologist,Jalandhar,Sample Clinic Jalandhar C,20,4.3,848,600,English;Hindi;Punjabi,True,Mon-Fri,SAMPLE-0158,synthetic demo data,True
+SD0159,Sample Doctor 0159,Neurologist,Jalandhar,Sample Hospital Jalandhar C,21,3.9,603,1300,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0159,synthetic demo data,True
+SD0160,Sample Doctor 0160,Psychiatrist,Jalandhar,Sample Hospital Jalandhar A,34,4.0,568,1200,English;Hindi;Punjabi,False,"Mon,Wed,Fri",SAMPLE-0160,synthetic demo data,True
+SD0161,Sample Doctor 0161,Psychiatrist,Jalandhar,Sample Hospital Jalandhar C,8,4.3,858,650,English;Hindi;Punjabi,True,Mon-Fri,SAMPLE-0161,synthetic demo data,True
+SD0162,Sample Doctor 0162,Rheumatologist,Jalandhar,Sample Clinic Jalandhar D,26,4.2,130,750,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0162,synthetic demo data,True
+SD0163,Sample Doctor 0163,Orthopedist,Jalandhar,Sample Hospital Jalandhar B,16,4.5,624,1050,English;Hindi;Punjabi,True,Mon-Sat,SAMPLE-0163,synthetic demo data,True
+SD0164,Sample Doctor 0164,Dermatologist,Jalandhar,Sample Hospital Jalandhar B,25,4.9,814,1100,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0164,synthetic demo data,True
+SD0165,Sample Doctor 0165,Dermatologist,Jalandhar,Sample Hospital Jalandhar D,27,4.3,456,1050,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0165,synthetic demo data,True
+SD0166,Sample Doctor 0166,Ophthalmologist,Jalandhar,Sample Clinic Jalandhar B,2,4.0,377,550,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0166,synthetic demo data,True
+SD0167,Sample Doctor 0167,ENT Specialist,Jalandhar,Sample Hospital Jalandhar A,20,3.6,426,800,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0167,synthetic demo data,True
+SD0168,Sample Doctor 0168,Infectious Disease Specialist,Jalandhar,Sample Clinic Jalandhar B,21,4.4,160,1000,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0168,synthetic demo data,True
+SD0169,Sample Doctor 0169,Infectious Disease Specialist,Jalandhar,Sample Clinic Jalandhar B,15,4.3,664,950,English;Hindi;Punjabi,False,Mon-Sat,SAMPLE-0169,synthetic demo data,True
+SD0170,Sample Doctor 0170,Oncologist,Jalandhar,Sample Hospital Jalandhar C,29,3.6,892,850,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0170,synthetic demo data,True
+SD0171,Sample Doctor 0171,Oncologist,Jalandhar,Sample Hospital Jalandhar D,30,3.8,576,950,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0171,synthetic demo data,True
+SD0172,Sample Doctor 0172,Hematologist,Jalandhar,Sample Hospital Jalandhar D,11,4.2,761,1050,English;Hindi;Punjabi,True,Mon-Fri,SAMPLE-0172,synthetic demo data,True
+SD0173,Sample Doctor 0173,Gynecologist,Jalandhar,Sample Clinic Jalandhar D,5,3.9,29,1000,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0173,synthetic demo data,True
+SD0174,Sample Doctor 0174,Gynecologist,Jalandhar,Sample Hospital Jalandhar B,5,4.5,495,800,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0174,synthetic demo data,True
+SD0175,Sample Doctor 0175,Pediatrician,Jalandhar,Sample Clinic Jalandhar C,33,4.0,624,400,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0175,synthetic demo data,True
+SD0176,Sample Doctor 0176,Pediatrician,Jalandhar,Sample Clinic Jalandhar B,6,3.9,675,550,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0176,synthetic demo data,True
+SD0177,Sample Doctor 0177,Vascular Surgeon,Jalandhar,Sample Clinic Jalandhar B,35,3.6,77,1100,English;Hindi;Punjabi,True,Mon-Sat,SAMPLE-0177,synthetic demo data,True
+SD0178,Sample Doctor 0178,Vascular Surgeon,Jalandhar,Sample Hospital Jalandhar A,2,4.1,269,1100,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0178,synthetic demo data,True
+SD0179,Sample Doctor 0179,Physiotherapist,Jalandhar,Sample Hospital Jalandhar A,35,3.8,38,450,English;Hindi;Punjabi,False,"Mon,Wed,Fri",SAMPLE-0179,synthetic demo data,True
+SD0180,Sample Doctor 0180,General Physician,Patiala,Sample Clinic Patiala C,27,4.1,709,300,English;Hindi;Punjabi,False,"Mon,Wed,Fri",SAMPLE-0180,synthetic demo data,True
+SD0181,Sample Doctor 0181,Pulmonologist,Patiala,Sample Hospital Patiala D,13,3.9,370,1250,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0181,synthetic demo data,True
+SD0182,Sample Doctor 0182,Cardiologist,Patiala,Sample Hospital Patiala A,31,4.4,736,950,English;Hindi;Punjabi,False,Mon-Sat,SAMPLE-0182,synthetic demo data,True
+SD0183,Sample Doctor 0183,Endocrinologist,Patiala,Sample Hospital Patiala C,4,4.8,373,1000,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0183,synthetic demo data,True
+SD0184,Sample Doctor 0184,Endocrinologist,Patiala,Sample Hospital Patiala B,15,4.0,353,1250,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0184,synthetic demo data,True
+SD0185,Sample Doctor 0185,Gastroenterologist,Patiala,Sample Clinic Patiala B,32,4.7,798,900,English;Hindi;Punjabi,False,Mon-Sat,SAMPLE-0185,synthetic demo data,True
+SD0186,Sample Doctor 0186,Hepatologist,Patiala,Sample Clinic Patiala C,11,4.3,883,1200,English;Hindi;Punjabi,False,Mon-Fri,SAMPLE-0186,synthetic demo data,True
+SD0187,Sample Doctor 0187,Nephrologist,Patiala,Sample Hospital Patiala C,11,4.1,708,1300,English;Hindi;Punjabi,False,Mon-Fri,SAMPLE-0187,synthetic demo data,True
+SD0188,Sample Doctor 0188,Nephrologist,Patiala,Sample Hospital Patiala B,11,5.0,797,650,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0188,synthetic demo data,True
+SD0189,Sample Doctor 0189,Urologist,Patiala,Sample Hospital Patiala A,23,4.5,498,650,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0189,synthetic demo data,True
+SD0190,Sample Doctor 0190,Neurologist,Patiala,Sample Clinic Patiala B,34,4.3,80,1250,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0190,synthetic demo data,True
+SD0191,Sample Doctor 0191,Neurologist,Patiala,Sample Hospital Patiala B,19,4.2,290,600,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0191,synthetic demo data,True
+SD0192,Sample Doctor 0192,Psychiatrist,Patiala,Sample Clinic Patiala A,11,4.4,447,1250,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0192,synthetic demo data,True
+SD0193,Sample Doctor 0193,Rheumatologist,Patiala,Sample Hospital Patiala A,32,4.2,866,600,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0193,synthetic demo data,True
+SD0194,Sample Doctor 0194,Rheumatologist,Patiala,Sample Clinic Patiala D,17,4.1,645,1200,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0194,synthetic demo data,True
+SD0195,Sample Doctor 0195,Orthopedist,Patiala,Sample Clinic Patiala C,6,4.2,716,950,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0195,synthetic demo data,True
+SD0196,Sample Doctor 0196,Dermatologist,Patiala,Sample Hospital Patiala D,14,4.1,899,800,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0196,synthetic demo data,True
+SD0197,Sample Doctor 0197,Dermatologist,Patiala,Sample Clinic Patiala A,12,4.3,169,1200,English;Hindi;Punjabi,False,Mon-Fri,SAMPLE-0197,synthetic demo data,True
+SD0198,Sample Doctor 0198,Ophthalmologist,Patiala,Sample Clinic Patiala A,3,4.5,457,550,English;Hindi;Punjabi,True,Mon-Fri,SAMPLE-0198,synthetic demo data,True
+SD0199,Sample Doctor 0199,Ophthalmologist,Patiala,Sample Clinic Patiala D,24,3.8,624,700,English;Hindi;Punjabi,False,Mon-Sat,SAMPLE-0199,synthetic demo data,True
+SD0200,Sample Doctor 0200,ENT Specialist,Patiala,Sample Hospital Patiala A,23,4.2,47,650,English;Hindi;Punjabi,True,Mon-Fri,SAMPLE-0200,synthetic demo data,True
+SD0201,Sample Doctor 0201,ENT Specialist,Patiala,Sample Clinic Patiala C,10,4.7,843,800,English;Hindi;Punjabi,True,Mon-Fri,SAMPLE-0201,synthetic demo data,True
+SD0202,Sample Doctor 0202,Infectious Disease Specialist,Patiala,Sample Clinic Patiala B,2,4.4,106,900,English;Hindi;Punjabi,True,Mon-Sat,SAMPLE-0202,synthetic demo data,True
+SD0203,Sample Doctor 0203,Infectious Disease Specialist,Patiala,Sample Clinic Patiala B,35,4.5,600,1100,English;Hindi;Punjabi,True,Mon-Fri,SAMPLE-0203,synthetic demo data,True
+SD0204,Sample Doctor 0204,Oncologist,Patiala,Sample Hospital Patiala B,5,4.1,445,700,English;Hindi;Punjabi,True,Mon-Fri,SAMPLE-0204,synthetic demo data,True
+SD0205,Sample Doctor 0205,Oncologist,Patiala,Sample Hospital Patiala B,27,5.0,753,800,English;Hindi;Punjabi,False,Mon-Sat,SAMPLE-0205,synthetic demo data,True
+SD0206,Sample Doctor 0206,Hematologist,Patiala,Sample Hospital Patiala A,20,4.6,642,1250,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0206,synthetic demo data,True
+SD0207,Sample Doctor 0207,Hematologist,Patiala,Sample Clinic Patiala D,24,4.4,100,1200,English;Hindi;Punjabi,True,Tue-Sun,SAMPLE-0207,synthetic demo data,True
+SD0208,Sample Doctor 0208,Gynecologist,Patiala,Sample Hospital Patiala C,15,4.6,459,700,English;Hindi;Punjabi,True,"Mon,Wed,Fri",SAMPLE-0208,synthetic demo data,True
+SD0209,Sample Doctor 0209,Gynecologist,Patiala,Sample Clinic Patiala D,13,4.5,600,1050,English;Hindi;Punjabi,True,Mon-Fri,SAMPLE-0209,synthetic demo data,True
+SD0210,Sample Doctor 0210,Pediatrician,Patiala,Sample Hospital Patiala A,22,4.4,432,750,English;Hindi;Punjabi,True,Mon-Sat,SAMPLE-0210,synthetic demo data,True
+SD0211,Sample Doctor 0211,Pediatrician,Patiala,Sample Clinic Patiala B,14,4.7,123,700,English;Hindi;Punjabi,False,Tue-Sun,SAMPLE-0211,synthetic demo data,True
+SD0212,Sample Doctor 0212,Vascular Surgeon,Patiala,Sample Hospital Patiala D,4,4.4,695,1050,English;Hindi;Punjabi,True,Mon-Fri,SAMPLE-0212,synthetic demo data,True
+SD0213,Sample Doctor 0213,Vascular Surgeon,Patiala,Sample Hospital Patiala B,13,4.0,478,1050,English;Hindi;Punjabi,False,"Mon,Wed,Fri",SAMPLE-0213,synthetic demo data,True
+SD0214,Sample Doctor 0214,Physiotherapist,Patiala,Sample Clinic Patiala B,13,4.7,26,700,English;Hindi;Punjabi,True,Mon-Fri,SAMPLE-0214,synthetic demo data,True
+SD0215,Sample Doctor 0215,General Physician,Delhi,Sample Hospital Delhi B,5,4.8,349,750,English;Hindi,False,Tue-Sun,SAMPLE-0215,synthetic demo data,True
+SD0216,Sample Doctor 0216,General Physician,Delhi,Sample Hospital Delhi B,12,4.3,559,850,English;Hindi,True,Mon-Sat,SAMPLE-0216,synthetic demo data,True
+SD0217,Sample Doctor 0217,Pulmonologist,Delhi,Sample Hospital Delhi A,6,4.7,869,1350,English;Hindi,False,Mon-Fri,SAMPLE-0217,synthetic demo data,True
+SD0218,Sample Doctor 0218,Pulmonologist,Delhi,Sample Hospital Delhi D,28,4.4,266,1100,English;Hindi,True,Tue-Sun,SAMPLE-0218,synthetic demo data,True
+SD0219,Sample Doctor 0219,Cardiologist,Delhi,Sample Clinic Delhi D,35,4.1,123,1450,English;Hindi,False,Mon-Sat,SAMPLE-0219,synthetic demo data,True
+SD0220,Sample Doctor 0220,Cardiologist,Delhi,Sample Clinic Delhi C,26,3.7,885,1300,English;Hindi,True,Tue-Sun,SAMPLE-0220,synthetic demo data,True
+SD0221,Sample Doctor 0221,Endocrinologist,Delhi,Sample Clinic Delhi A,33,4.6,257,700,English;Hindi,False,Mon-Fri,SAMPLE-0221,synthetic demo data,True
+SD0222,Sample Doctor 0222,Endocrinologist,Delhi,Sample Hospital Delhi D,29,3.8,237,1300,English;Hindi,True,Tue-Sun,SAMPLE-0222,synthetic demo data,True
+SD0223,Sample Doctor 0223,Gastroenterologist,Delhi,Sample Hospital Delhi A,25,4.1,671,750,English;Hindi,True,Tue-Sun,SAMPLE-0223,synthetic demo data,True
+SD0224,Sample Doctor 0224,Gastroenterologist,Delhi,Sample Clinic Delhi A,22,4.1,736,1500,English;Hindi,False,Tue-Sun,SAMPLE-0224,synthetic demo data,True
+SD0225,Sample Doctor 0225,Hepatologist,Delhi,Sample Clinic Delhi D,26,5.0,416,1450,English;Hindi,True,Tue-Sun,SAMPLE-0225,synthetic demo data,True
+SD0226,Sample Doctor 0226,Hepatologist,Delhi,Sample Clinic Delhi B,19,3.9,155,800,English;Hindi,True,Mon-Fri,SAMPLE-0226,synthetic demo data,True
+SD0227,Sample Doctor 0227,Nephrologist,Delhi,Sample Hospital Delhi B,17,4.0,766,1350,English;Hindi,False,Mon-Fri,SAMPLE-0227,synthetic demo data,True
+SD0228,Sample Doctor 0228,Nephrologist,Delhi,Sample Hospital Delhi A,19,4.2,85,1600,English;Hindi,True,"Mon,Wed,Fri",SAMPLE-0228,synthetic demo data,True
+SD0229,Sample Doctor 0229,Nephrologist,Delhi,Sample Clinic Delhi D,26,4.3,459,1100,English;Hindi,True,Mon-Fri,SAMPLE-0229,synthetic demo data,True
+SD0230,Sample Doctor 0230,Urologist,Delhi,Sample Hospital Delhi B,12,4.2,273,1000,English;Hindi,True,"Mon,Wed,Fri",SAMPLE-0230,synthetic demo data,True
+SD0231,Sample Doctor 0231,Urologist,Delhi,Sample Clinic Delhi B,6,4.9,748,1300,English;Hindi,True,"Mon,Wed,Fri",SAMPLE-0231,synthetic demo data,True
+SD0232,Sample Doctor 0232,Urologist,Delhi,Sample Hospital Delhi B,5,4.8,453,1050,English;Hindi,False,Mon-Fri,SAMPLE-0232,synthetic demo data,True
+SD0233,Sample Doctor 0233,Neurologist,Delhi,Sample Clinic Delhi C,2,4.2,649,1200,English;Hindi,True,Tue-Sun,SAMPLE-0233,synthetic demo data,True
+SD0234,Sample Doctor 0234,Neurologist,Delhi,Sample Clinic Delhi A,32,4.2,306,750,English;Hindi,False,Mon-Fri,SAMPLE-0234,synthetic demo data,True
+SD0235,Sample Doctor 0235,Neurologist,Delhi,Sample Hospital Delhi B,3,4.3,644,1450,English;Hindi,True,"Mon,Wed,Fri",SAMPLE-0235,synthetic demo data,True
+SD0236,Sample Doctor 0236,Psychiatrist,Delhi,Sample Hospital Delhi A,24,4.9,547,750,English;Hindi,True,"Mon,Wed,Fri",SAMPLE-0236,synthetic demo data,True
+SD0237,Sample Doctor 0237,Psychiatrist,Delhi,Sample Hospital Delhi A,5,4.1,564,1600,English;Hindi,False,Mon-Sat,SAMPLE-0237,synthetic demo data,True
+SD0238,Sample Doctor 0238,Psychiatrist,Delhi,Sample Clinic Delhi A,25,4.2,815,1100,English;Hindi,True,Mon-Fri,SAMPLE-0238,synthetic demo data,True
+SD0239,Sample Doctor 0239,Rheumatologist,Delhi,Sample Clinic Delhi B,20,4.3,70,1150,English;Hindi,False,Tue-Sun,SAMPLE-0239,synthetic demo data,True
+SD0240,Sample Doctor 0240,Rheumatologist,Delhi,Sample Clinic Delhi C,30,4.8,97,950,English;Hindi,True,"Mon,Wed,Fri",SAMPLE-0240,synthetic demo data,True
+SD0241,Sample Doctor 0241,Orthopedist,Delhi,Sample Clinic Delhi A,25,4.1,150,1450,English;Hindi,False,Mon-Fri,SAMPLE-0241,synthetic demo data,True
+SD0242,Sample Doctor 0242,Orthopedist,Delhi,Sample Hospital Delhi B,13,4.4,880,1500,English;Hindi,True,Tue-Sun,SAMPLE-0242,synthetic demo data,True
+SD0243,Sample Doctor 0243,Orthopedist,Delhi,Sample Hospital Delhi D,2,4.2,554,1300,English;Hindi,False,"Mon,Wed,Fri",SAMPLE-0243,synthetic demo data,True
+SD0244,Sample Doctor 0244,Dermatologist,Delhi,Sample Hospital Delhi A,6,4.2,716,750,English;Hindi,True,Mon-Sat,SAMPLE-0244,synthetic demo data,True
+SD0245,Sample Doctor 0245,Dermatologist,Delhi,Sample Clinic Delhi C,19,4.5,408,1600,English;Hindi,True,Mon-Sat,SAMPLE-0245,synthetic demo data,True
+SD0246,Sample Doctor 0246,Dermatologist,Delhi,Sample Hospital Delhi C,11,5.0,75,750,English;Hindi,True,Tue-Sun,SAMPLE-0246,synthetic demo data,True
+SD0247,Sample Doctor 0247,Ophthalmologist,Delhi,Sample Hospital Delhi C,12,4.7,574,700,English;Hindi,True,"Mon,Wed,Fri",SAMPLE-0247,synthetic demo data,True
+SD0248,Sample Doctor 0248,Ophthalmologist,Delhi,Sample Clinic Delhi A,20,4.2,797,1200,English;Hindi,True,Mon-Fri,SAMPLE-0248,synthetic demo data,True
+SD0249,Sample Doctor 0249,ENT Specialist,Delhi,Sample Clinic Delhi D,24,4.2,291,1550,English;Hindi,True,"Mon,Wed,Fri",SAMPLE-0249,synthetic demo data,True
+SD0250,Sample Doctor 0250,ENT Specialist,Delhi,Sample Clinic Delhi C,35,5.0,719,1150,English;Hindi,False,Mon-Sat,SAMPLE-0250,synthetic demo data,True
+SD0251,Sample Doctor 0251,ENT Specialist,Delhi,Sample Hospital Delhi B,22,3.9,434,1400,English;Hindi,False,Mon-Fri,SAMPLE-0251,synthetic demo data,True
+SD0252,Sample Doctor 0252,Infectious Disease Specialist,Delhi,Sample Hospital Delhi C,15,4.1,507,1600,English;Hindi,False,"Mon,Wed,Fri",SAMPLE-0252,synthetic demo data,True
+SD0253,Sample Doctor 0253,Infectious Disease Specialist,Delhi,Sample Clinic Delhi A,25,4.3,143,700,English;Hindi,False,Mon-Fri,SAMPLE-0253,synthetic demo data,True
+SD0254,Sample Doctor 0254,Oncologist,Delhi,Sample Hospital Delhi B,15,3.9,286,1350,English;Hindi,True,Mon-Fri,SAMPLE-0254,synthetic demo data,True
+SD0255,Sample Doctor 0255,Oncologist,Delhi,Sample Clinic Delhi A,4,4.3,769,1200,English;Hindi,True,Mon-Sat,SAMPLE-0255,synthetic demo data,True
+SD0256,Sample Doctor 0256,Hematologist,Delhi,Sample Clinic Delhi C,19,4.1,547,1050,English;Hindi,True,Mon-Sat,SAMPLE-0256,synthetic demo data,True
+SD0257,Sample Doctor 0257,Hematologist,Delhi,Sample Hospital Delhi D,15,4.6,113,1050,English;Hindi,True,Mon-Fri,SAMPLE-0257,synthetic demo data,True
+SD0258,Sample Doctor 0258,Hematologist,Delhi,Sample Hospital Delhi A,23,3.8,652,1450,English;Hindi,True,Mon-Sat,SAMPLE-0258,synthetic demo data,True
+SD0259,Sample Doctor 0259,Gynecologist,Delhi,Sample Clinic Delhi B,14,5.0,677,1450,English;Hindi,False,"Mon,Wed,Fri",SAMPLE-0259,synthetic demo data,True
+SD0260,Sample Doctor 0260,Gynecologist,Delhi,Sample Hospital Delhi C,24,4.3,630,900,English;Hindi,True,Mon-Fri,SAMPLE-0260,synthetic demo data,True
+SD0261,Sample Doctor 0261,Pediatrician,Delhi,Sample Hospital Delhi B,24,3.7,782,550,English;Hindi,False,"Mon,Wed,Fri",SAMPLE-0261,synthetic demo data,True
+SD0262,Sample Doctor 0262,Pediatrician,Delhi,Sample Clinic Delhi C,3,3.9,893,800,English;Hindi,True,Mon-Fri,SAMPLE-0262,synthetic demo data,True
+SD0263,Sample Doctor 0263,Vascular Surgeon,Delhi,Sample Hospital Delhi C,12,4.2,590,1350,English;Hindi,True,Tue-Sun,SAMPLE-0263,synthetic demo data,True
+SD0264,Sample Doctor 0264,Vascular Surgeon,Delhi,Sample Clinic Delhi C,15,3.9,650,1600,English;Hindi,False,"Mon,Wed,Fri",SAMPLE-0264,synthetic demo data,True
+SD0265,Sample Doctor 0265,Emergency Medicine,Delhi,Sample Hospital Delhi C,19,4.4,338,800,English;Hindi,True,Mon-Sat,SAMPLE-0265,synthetic demo data,True
+SD0266,Sample Doctor 0266,Emergency Medicine,Delhi,Sample Clinic Delhi C,16,4.3,269,600,English;Hindi,False,Mon-Sat,SAMPLE-0266,synthetic demo data,True
+SD0267,Sample Doctor 0267,Physiotherapist,Delhi,Sample Hospital Delhi B,24,4.1,324,1100,English;Hindi,False,"Mon,Wed,Fri",SAMPLE-0267,synthetic demo data,True
+SD0268,Sample Doctor 0268,Physiotherapist,Delhi,Sample Hospital Delhi A,25,4.2,338,950,English;Hindi,False,Mon-Fri,SAMPLE-0268,synthetic demo data,True
+SD0269,Sample Doctor 0269,Physiotherapist,Delhi,Sample Clinic Delhi D,6,5.0,18,850,English;Hindi,False,Mon-Fri,SAMPLE-0269,synthetic demo data,True
+SD0270,Sample Doctor 0270,General Physician,Mumbai,Sample Hospital Mumbai C,30,4.3,801,550,English;Hindi;Marathi,False,Mon-Fri,SAMPLE-0270,synthetic demo data,True
+SD0271,Sample Doctor 0271,General Physician,Mumbai,Sample Hospital Mumbai C,3,4.1,35,450,English;Hindi;Marathi,False,Tue-Sun,SAMPLE-0271,synthetic demo data,True
+SD0272,Sample Doctor 0272,Pulmonologist,Mumbai,Sample Clinic Mumbai A,29,4.4,148,850,English;Hindi;Marathi,False,Mon-Sat,SAMPLE-0272,synthetic demo data,True
+SD0273,Sample Doctor 0273,Pulmonologist,Mumbai,Sample Hospital Mumbai D,9,3.9,86,1150,English;Hindi;Marathi,True,Mon-Sat,SAMPLE-0273,synthetic demo data,True
+SD0274,Sample Doctor 0274,Pulmonologist,Mumbai,Sample Hospital Mumbai D,8,3.7,448,1100,English;Hindi;Marathi,True,Tue-Sun,SAMPLE-0274,synthetic demo data,True
+SD0275,Sample Doctor 0275,Cardiologist,Mumbai,Sample Hospital Mumbai D,11,3.6,54,800,English;Hindi;Marathi,True,"Mon,Wed,Fri",SAMPLE-0275,synthetic demo data,True
+SD0276,Sample Doctor 0276,Cardiologist,Mumbai,Sample Hospital Mumbai C,12,3.8,674,1150,English;Hindi;Marathi,False,Mon-Fri,SAMPLE-0276,synthetic demo data,True
+SD0277,Sample Doctor 0277,Endocrinologist,Mumbai,Sample Clinic Mumbai D,30,4.0,388,1100,English;Hindi;Marathi,True,Tue-Sun,SAMPLE-0277,synthetic demo data,True
+SD0278,Sample Doctor 0278,Endocrinologist,Mumbai,Sample Hospital Mumbai D,26,4.4,186,1250,English;Hindi;Marathi,True,Mon-Fri,SAMPLE-0278,synthetic demo data,True
+SD0279,Sample Doctor 0279,Endocrinologist,Mumbai,Sample Hospital Mumbai D,31,4.7,537,1550,English;Hindi;Marathi,True,Tue-Sun,SAMPLE-0279,synthetic demo data,True
+SD0280,Sample Doctor 0280,Gastroenterologist,Mumbai,Sample Clinic Mumbai C,34,4.2,786,900,English;Hindi;Marathi,True,"Mon,Wed,Fri",SAMPLE-0280,synthetic demo data,True
+SD0281,Sample Doctor 0281,Gastroenterologist,Mumbai,Sample Hospital Mumbai B,4,3.5,66,1000,English;Hindi;Marathi,True,Mon-Sat,SAMPLE-0281,synthetic demo data,True
+SD0282,Sample Doctor 0282,Hepatologist,Mumbai,Sample Hospital Mumbai A,14,4.1,71,1350,English;Hindi;Marathi,True,Mon-Fri,SAMPLE-0282,synthetic demo data,True
+SD0283,Sample Doctor 0283,Hepatologist,Mumbai,Sample Clinic Mumbai D,33,4.0,295,1550,English;Hindi;Marathi,False,Mon-Sat,SAMPLE-0283,synthetic demo data,True
+SD0284,Sample Doctor 0284,Hepatologist,Mumbai,Sample Clinic Mumbai B,26,3.9,848,750,English;Hindi;Marathi,False,Mon-Sat,SAMPLE-0284,synthetic demo data,True
+SD0285,Sample Doctor 0285,Nephrologist,Mumbai,Sample Hospital Mumbai C,21,4.7,106,1000,English;Hindi;Marathi,True,"Mon,Wed,Fri",SAMPLE-0285,synthetic demo data,True
+SD0286,Sample Doctor 0286,Nephrologist,Mumbai,Sample Hospital Mumbai A,13,3.8,170,1100,English;Hindi;Marathi,False,Mon-Sat,SAMPLE-0286,synthetic demo data,True
+SD0287,Sample Doctor 0287,Nephrologist,Mumbai,Sample Hospital Mumbai D,12,4.6,563,1550,English;Hindi;Marathi,False,Mon-Sat,SAMPLE-0287,synthetic demo data,True
+SD0288,Sample Doctor 0288,Urologist,Mumbai,Sample Hospital Mumbai A,16,4.0,501,950,English;Hindi;Marathi,True,Mon-Sat,SAMPLE-0288,synthetic demo data,True
+SD0289,Sample Doctor 0289,Urologist,Mumbai,Sample Hospital Mumbai A,15,4.4,160,1550,English;Hindi;Marathi,True,Mon-Fri,SAMPLE-0289,synthetic demo data,True
+SD0290,Sample Doctor 0290,Neurologist,Mumbai,Sample Hospital Mumbai A,11,4.6,531,1000,English;Hindi;Marathi,False,"Mon,Wed,Fri",SAMPLE-0290,synthetic demo data,True
+SD0291,Sample Doctor 0291,Neurologist,Mumbai,Sample Clinic Mumbai C,12,3.9,43,1400,English;Hindi;Marathi,False,Mon-Sat,SAMPLE-0291,synthetic demo data,True
+SD0292,Sample Doctor 0292,Neurologist,Mumbai,Sample Clinic Mumbai A,35,3.8,90,950,English;Hindi;Marathi,True,"Mon,Wed,Fri",SAMPLE-0292,synthetic demo data,True
+SD0293,Sample Doctor 0293,Psychiatrist,Mumbai,Sample Hospital Mumbai A,19,3.9,396,1400,English;Hindi;Marathi,True,"Mon,Wed,Fri",SAMPLE-0293,synthetic demo data,True
+SD0294,Sample Doctor 0294,Psychiatrist,Mumbai,Sample Hospital Mumbai D,20,4.4,265,1550,English;Hindi;Marathi,False,"Mon,Wed,Fri",SAMPLE-0294,synthetic demo data,True
+SD0295,Sample Doctor 0295,Rheumatologist,Mumbai,Sample Hospital Mumbai D,30,4.7,191,1450,English;Hindi;Marathi,True,"Mon,Wed,Fri",SAMPLE-0295,synthetic demo data,True
+SD0296,Sample Doctor 0296,Rheumatologist,Mumbai,Sample Clinic Mumbai A,15,5.0,55,1250,English;Hindi;Marathi,True,Tue-Sun,SAMPLE-0296,synthetic demo data,True
+SD0297,Sample Doctor 0297,Orthopedist,Mumbai,Sample Clinic Mumbai A,10,4.1,870,1600,English;Hindi;Marathi,True,Mon-Sat,SAMPLE-0297,synthetic demo data,True
+SD0298,Sample Doctor 0298,Orthopedist,Mumbai,Sample Clinic Mumbai A,4,3.6,391,1450,English;Hindi;Marathi,True,Mon-Fri,SAMPLE-0298,synthetic demo data,True
+SD0299,Sample Doctor 0299,Orthopedist,Mumbai,Sample Clinic Mumbai A,30,4.5,625,950,English;Hindi;Marathi,False,Mon-Fri,SAMPLE-0299,synthetic demo data,True
+SD0300,Sample Doctor 0300,Dermatologist,Mumbai,Sample Hospital Mumbai B,15,4.0,440,900,English;Hindi;Marathi,True,Mon-Sat,SAMPLE-0300,synthetic demo data,True
+SD0301,Sample Doctor 0301,Dermatologist,Mumbai,Sample Hospital Mumbai B,28,3.9,762,950,English;Hindi;Marathi,True,Tue-Sun,SAMPLE-0301,synthetic demo data,True
+SD0302,Sample Doctor 0302,Dermatologist,Mumbai,Sample Clinic Mumbai C,17,4.6,684,1200,English;Hindi;Marathi,False,Mon-Fri,SAMPLE-0302,synthetic demo data,True
+SD0303,Sample Doctor 0303,Ophthalmologist,Mumbai,Sample Hospital Mumbai B,4,4.1,619,1600,English;Hindi;Marathi,True,Tue-Sun,SAMPLE-0303,synthetic demo data,True
+SD0304,Sample Doctor 0304,Ophthalmologist,Mumbai,Sample Clinic Mumbai A,16,4.3,734,1550,English;Hindi;Marathi,True,"Mon,Wed,Fri",SAMPLE-0304,synthetic demo data,True
+SD0305,Sample Doctor 0305,Ophthalmologist,Mumbai,Sample Clinic Mumbai C,21,4.2,825,1250,English;Hindi;Marathi,True,Mon-Fri,SAMPLE-0305,synthetic demo data,True
+SD0306,Sample Doctor 0306,ENT Specialist,Mumbai,Sample Hospital Mumbai B,32,4.5,213,1550,English;Hindi;Marathi,True,Tue-Sun,SAMPLE-0306,synthetic demo data,True
+SD0307,Sample Doctor 0307,ENT Specialist,Mumbai,Sample Clinic Mumbai B,17,4.3,668,1100,English;Hindi;Marathi,False,Mon-Fri,SAMPLE-0307,synthetic demo data,True
+SD0308,Sample Doctor 0308,ENT Specialist,Mumbai,Sample Hospital Mumbai C,11,3.8,789,950,English;Hindi;Marathi,False,"Mon,Wed,Fri",SAMPLE-0308,synthetic demo data,True
+SD0309,Sample Doctor 0309,Infectious Disease Specialist,Mumbai,Sample Hospital Mumbai A,25,4.2,499,1500,English;Hindi;Marathi,False,Tue-Sun,SAMPLE-0309,synthetic demo data,True
+SD0310,Sample Doctor 0310,Infectious Disease Specialist,Mumbai,Sample Clinic Mumbai B,25,4.2,572,1400,English;Hindi;Marathi,False,Mon-Sat,SAMPLE-0310,synthetic demo data,True
+SD0311,Sample Doctor 0311,Oncologist,Mumbai,Sample Clinic Mumbai A,6,4.1,889,950,English;Hindi;Marathi,False,"Mon,Wed,Fri",SAMPLE-0311,synthetic demo data,True
+SD0312,Sample Doctor 0312,Oncologist,Mumbai,Sample Hospital Mumbai A,6,4.3,244,800,English;Hindi;Marathi,True,Tue-Sun,SAMPLE-0312,synthetic demo data,True
+SD0313,Sample Doctor 0313,Hematologist,Mumbai,Sample Clinic Mumbai D,30,4.3,783,1050,English;Hindi;Marathi,True,"Mon,Wed,Fri",SAMPLE-0313,synthetic demo data,True
+SD0314,Sample Doctor 0314,Hematologist,Mumbai,Sample Hospital Mumbai A,11,4.2,210,1050,English;Hindi;Marathi,True,"Mon,Wed,Fri",SAMPLE-0314,synthetic demo data,True
+SD0315,Sample Doctor 0315,Gynecologist,Mumbai,Sample Clinic Mumbai D,24,3.8,354,1300,English;Hindi;Marathi,False,"Mon,Wed,Fri",SAMPLE-0315,synthetic demo data,True
+SD0316,Sample Doctor 0316,Gynecologist,Mumbai,Sample Hospital Mumbai B,29,4.0,129,1600,English;Hindi;Marathi,False,Tue-Sun,SAMPLE-0316,synthetic demo data,True
+SD0317,Sample Doctor 0317,Pediatrician,Mumbai,Sample Clinic Mumbai C,14,4.0,283,500,English;Hindi;Marathi,True,"Mon,Wed,Fri",SAMPLE-0317,synthetic demo data,True
+SD0318,Sample Doctor 0318,Pediatrician,Mumbai,Sample Hospital Mumbai A,33,4.4,851,700,English;Hindi;Marathi,False,"Mon,Wed,Fri",SAMPLE-0318,synthetic demo data,True
+SD0319,Sample Doctor 0319,Pediatrician,Mumbai,Sample Clinic Mumbai C,10,4.6,346,1050,English;Hindi;Marathi,True,"Mon,Wed,Fri",SAMPLE-0319,synthetic demo data,True
+SD0320,Sample Doctor 0320,Vascular Surgeon,Mumbai,Sample Hospital Mumbai D,18,4.0,413,1200,English;Hindi;Marathi,True,Tue-Sun,SAMPLE-0320,synthetic demo data,True
+SD0321,Sample Doctor 0321,Vascular Surgeon,Mumbai,Sample Clinic Mumbai B,23,3.9,155,850,English;Hindi;Marathi,False,Mon-Sat,SAMPLE-0321,synthetic demo data,True
+SD0322,Sample Doctor 0322,Emergency Medicine,Mumbai,Sample Clinic Mumbai C,22,4.2,42,900,English;Hindi;Marathi,False,Mon-Sat,SAMPLE-0322,synthetic demo data,True
+SD0323,Sample Doctor 0323,Emergency Medicine,Mumbai,Sample Hospital Mumbai C,6,4.3,736,1150,English;Hindi;Marathi,True,"Mon,Wed,Fri",SAMPLE-0323,synthetic demo data,True
+SD0324,Sample Doctor 0324,Physiotherapist,Mumbai,Sample Hospital Mumbai D,4,4.3,580,650,English;Hindi;Marathi,False,Mon-Fri,SAMPLE-0324,synthetic demo data,True
+SD0325,Sample Doctor 0325,Physiotherapist,Mumbai,Sample Hospital Mumbai B,2,3.6,362,850,English;Hindi;Marathi,True,Mon-Fri,SAMPLE-0325,synthetic demo data,True
+SD0326,Sample Doctor 0326,Physiotherapist,Mumbai,Sample Hospital Mumbai D,15,4.4,557,1050,English;Hindi;Marathi,False,Mon-Sat,SAMPLE-0326,synthetic demo data,True
+SD0327,Sample Doctor 0327,General Physician,Bengaluru,Sample Hospital Bengaluru C,10,4.0,212,550,English;Kannada;Hindi,False,Tue-Sun,SAMPLE-0327,synthetic demo data,True
+SD0328,Sample Doctor 0328,General Physician,Bengaluru,Sample Clinic Bengaluru A,11,4.4,601,400,English;Kannada;Hindi,False,Mon-Sat,SAMPLE-0328,synthetic demo data,True
+SD0329,Sample Doctor 0329,General Physician,Bengaluru,Sample Hospital Bengaluru C,25,3.9,775,600,English;Kannada;Hindi,True,Tue-Sun,SAMPLE-0329,synthetic demo data,True
+SD0330,Sample Doctor 0330,Pulmonologist,Bengaluru,Sample Hospital Bengaluru A,8,4.2,205,1300,English;Kannada;Hindi,False,Tue-Sun,SAMPLE-0330,synthetic demo data,True
+SD0331,Sample Doctor 0331,Pulmonologist,Bengaluru,Sample Clinic Bengaluru B,8,3.9,866,950,English;Kannada;Hindi,True,Mon-Sat,SAMPLE-0331,synthetic demo data,True
+SD0332,Sample Doctor 0332,Pulmonologist,Bengaluru,Sample Hospital Bengaluru C,5,4.4,793,1050,English;Kannada;Hindi,True,Tue-Sun,SAMPLE-0332,synthetic demo data,True
+SD0333,Sample Doctor 0333,Cardiologist,Bengaluru,Sample Hospital Bengaluru A,10,4.0,523,700,English;Kannada;Hindi,False,Mon-Sat,SAMPLE-0333,synthetic demo data,True
+SD0334,Sample Doctor 0334,Cardiologist,Bengaluru,Sample Hospital Bengaluru D,5,4.6,654,1300,English;Kannada;Hindi,True,"Mon,Wed,Fri",SAMPLE-0334,synthetic demo data,True
+SD0335,Sample Doctor 0335,Endocrinologist,Bengaluru,Sample Clinic Bengaluru D,5,4.0,160,1500,English;Kannada;Hindi,False,Mon-Sat,SAMPLE-0335,synthetic demo data,True
+SD0336,Sample Doctor 0336,Endocrinologist,Bengaluru,Sample Hospital Bengaluru B,27,4.1,128,1200,English;Kannada;Hindi,False,Mon-Sat,SAMPLE-0336,synthetic demo data,True
+SD0337,Sample Doctor 0337,Endocrinologist,Bengaluru,Sample Hospital Bengaluru A,19,3.7,218,1150,English;Kannada;Hindi,True,Tue-Sun,SAMPLE-0337,synthetic demo data,True
+SD0338,Sample Doctor 0338,Gastroenterologist,Bengaluru,Sample Clinic Bengaluru A,17,3.8,669,1250,English;Kannada;Hindi,False,Mon-Fri,SAMPLE-0338,synthetic demo data,True
+SD0339,Sample Doctor 0339,Gastroenterologist,Bengaluru,Sample Clinic Bengaluru C,9,4.9,299,1150,English;Kannada;Hindi,False,Tue-Sun,SAMPLE-0339,synthetic demo data,True
+SD0340,Sample Doctor 0340,Hepatologist,Bengaluru,Sample Hospital Bengaluru A,5,4.1,139,1350,English;Kannada;Hindi,False,"Mon,Wed,Fri",SAMPLE-0340,synthetic demo data,True
+SD0341,Sample Doctor 0341,Hepatologist,Bengaluru,Sample Hospital Bengaluru D,5,4.0,142,1150,English;Kannada;Hindi,False,"Mon,Wed,Fri",SAMPLE-0341,synthetic demo data,True
+SD0342,Sample Doctor 0342,Nephrologist,Bengaluru,Sample Hospital Bengaluru B,28,4.5,565,1000,English;Kannada;Hindi,True,"Mon,Wed,Fri",SAMPLE-0342,synthetic demo data,True
+SD0343,Sample Doctor 0343,Nephrologist,Bengaluru,Sample Hospital Bengaluru C,12,4.3,519,1400,English;Kannada;Hindi,True,Tue-Sun,SAMPLE-0343,synthetic demo data,True
+SD0344,Sample Doctor 0344,Nephrologist,Bengaluru,Sample Clinic Bengaluru B,12,3.8,647,1000,English;Kannada;Hindi,False,Tue-Sun,SAMPLE-0344,synthetic demo data,True
+SD0345,Sample Doctor 0345,Urologist,Bengaluru,Sample Clinic Bengaluru D,32,4.5,471,1200,English;Kannada;Hindi,False,"Mon,Wed,Fri",SAMPLE-0345,synthetic demo data,True
+SD0346,Sample Doctor 0346,Urologist,Bengaluru,Sample Hospital Bengaluru A,35,4.1,104,900,English;Kannada;Hindi,False,Mon-Sat,SAMPLE-0346,synthetic demo data,True
+SD0347,Sample Doctor 0347,Neurologist,Bengaluru,Sample Hospital Bengaluru D,20,4.5,864,1650,English;Kannada;Hindi,False,Mon-Fri,SAMPLE-0347,synthetic demo data,True
+SD0348,Sample Doctor 0348,Neurologist,Bengaluru,Sample Hospital Bengaluru B,34,4.1,89,1300,English;Kannada;Hindi,False,Tue-Sun,SAMPLE-0348,synthetic demo data,True
+SD0349,Sample Doctor 0349,Psychiatrist,Bengaluru,Sample Hospital Bengaluru A,33,4.0,212,1550,English;Kannada;Hindi,True,"Mon,Wed,Fri",SAMPLE-0349,synthetic demo data,True
+SD0350,Sample Doctor 0350,Psychiatrist,Bengaluru,Sample Clinic Bengaluru A,25,4.0,791,1200,English;Kannada;Hindi,True,"Mon,Wed,Fri",SAMPLE-0350,synthetic demo data,True
+SD0351,Sample Doctor 0351,Psychiatrist,Bengaluru,Sample Hospital Bengaluru B,31,4.5,40,1400,English;Kannada;Hindi,True,Mon-Sat,SAMPLE-0351,synthetic demo data,True
+SD0352,Sample Doctor 0352,Rheumatologist,Bengaluru,Sample Hospital Bengaluru A,32,4.5,517,900,English;Kannada;Hindi,True,Mon-Sat,SAMPLE-0352,synthetic demo data,True
+SD0353,Sample Doctor 0353,Rheumatologist,Bengaluru,Sample Clinic Bengaluru B,13,4.0,22,1250,English;Kannada;Hindi,True,Mon-Fri,SAMPLE-0353,synthetic demo data,True
+SD0354,Sample Doctor 0354,Orthopedist,Bengaluru,Sample Clinic Bengaluru A,35,4.8,857,1400,English;Kannada;Hindi,True,Mon-Sat,SAMPLE-0354,synthetic demo data,True
+SD0355,Sample Doctor 0355,Orthopedist,Bengaluru,Sample Hospital Bengaluru D,18,4.1,110,1050,English;Kannada;Hindi,True,"Mon,Wed,Fri",SAMPLE-0355,synthetic demo data,True
+SD0356,Sample Doctor 0356,Dermatologist,Bengaluru,Sample Clinic Bengaluru D,24,5.0,461,1200,English;Kannada;Hindi,False,Tue-Sun,SAMPLE-0356,synthetic demo data,True
+SD0357,Sample Doctor 0357,Dermatologist,Bengaluru,Sample Hospital Bengaluru B,30,4.6,225,700,English;Kannada;Hindi,True,"Mon,Wed,Fri",SAMPLE-0357,synthetic demo data,True
+SD0358,Sample Doctor 0358,Ophthalmologist,Bengaluru,Sample Hospital Bengaluru C,26,4.1,108,1250,English;Kannada;Hindi,True,Mon-Fri,SAMPLE-0358,synthetic demo data,True
+SD0359,Sample Doctor 0359,Ophthalmologist,Bengaluru,Sample Clinic Bengaluru B,26,3.8,521,1600,English;Kannada;Hindi,False,Mon-Fri,SAMPLE-0359,synthetic demo data,True
+SD0360,Sample Doctor 0360,Ophthalmologist,Bengaluru,Sample Hospital Bengaluru C,25,4.4,298,1300,English;Kannada;Hindi,False,"Mon,Wed,Fri",SAMPLE-0360,synthetic demo data,True
+SD0361,Sample Doctor 0361,ENT Specialist,Bengaluru,Sample Clinic Bengaluru B,16,4.4,97,800,English;Kannada;Hindi,True,Mon-Fri,SAMPLE-0361,synthetic demo data,True
+SD0362,Sample Doctor 0362,ENT Specialist,Bengaluru,Sample Hospital Bengaluru D,24,4.4,346,1500,English;Kannada;Hindi,True,Mon-Fri,SAMPLE-0362,synthetic demo data,True
+SD0363,Sample Doctor 0363,Infectious Disease Specialist,Bengaluru,Sample Clinic Bengaluru D,25,4.7,843,700,English;Kannada;Hindi,False,"Mon,Wed,Fri",SAMPLE-0363,synthetic demo data,True
+SD0364,Sample Doctor 0364,Infectious Disease Specialist,Bengaluru,Sample Clinic Bengaluru D,27,4.1,624,750,English;Kannada;Hindi,False,Mon-Sat,SAMPLE-0364,synthetic demo data,True
+SD0365,Sample Doctor 0365,Oncologist,Bengaluru,Sample Hospital Bengaluru C,10,4.1,11,750,English;Kannada;Hindi,False,Mon-Sat,SAMPLE-0365,synthetic demo data,True
+SD0366,Sample Doctor 0366,Oncologist,Bengaluru,Sample Clinic Bengaluru B,29,4.7,88,750,English;Kannada;Hindi,False,Tue-Sun,SAMPLE-0366,synthetic demo data,True
+SD0367,Sample Doctor 0367,Oncologist,Bengaluru,Sample Hospital Bengaluru C,24,4.0,866,1000,English;Kannada;Hindi,False,Mon-Fri,SAMPLE-0367,synthetic demo data,True
+SD0368,Sample Doctor 0368,Hematologist,Bengaluru,Sample Clinic Bengaluru A,12,4.8,26,1400,English;Kannada;Hindi,True,Mon-Sat,SAMPLE-0368,synthetic demo data,True
+SD0369,Sample Doctor 0369,Hematologist,Bengaluru,Sample Hospital Bengaluru C,23,4.2,235,800,English;Kannada;Hindi,False,Mon-Sat,SAMPLE-0369,synthetic demo data,True
+SD0370,Sample Doctor 0370,Gynecologist,Bengaluru,Sample Hospital Bengaluru A,28,4.7,297,1600,English;Kannada;Hindi,True,Tue-Sun,SAMPLE-0370,synthetic demo data,True
+SD0371,Sample Doctor 0371,Gynecologist,Bengaluru,Sample Clinic Bengaluru C,9,4.3,739,750,English;Kannada;Hindi,True,Tue-Sun,SAMPLE-0371,synthetic demo data,True
+SD0372,Sample Doctor 0372,Pediatrician,Bengaluru,Sample Hospital Bengaluru C,33,4.3,881,550,English;Kannada;Hindi,False,Mon-Fri,SAMPLE-0372,synthetic demo data,True
+SD0373,Sample Doctor 0373,Pediatrician,Bengaluru,Sample Hospital Bengaluru C,7,4.6,716,1100,English;Kannada;Hindi,False,"Mon,Wed,Fri",SAMPLE-0373,synthetic demo data,True
+SD0374,Sample Doctor 0374,Vascular Surgeon,Bengaluru,Sample Hospital Bengaluru C,21,4.1,587,1250,English;Kannada;Hindi,True,Tue-Sun,SAMPLE-0374,synthetic demo data,True
+SD0375,Sample Doctor 0375,Vascular Surgeon,Bengaluru,Sample Clinic Bengaluru A,12,4.6,310,1450,English;Kannada;Hindi,False,"Mon,Wed,Fri",SAMPLE-0375,synthetic demo data,True
+SD0376,Sample Doctor 0376,Emergency Medicine,Bengaluru,Sample Clinic Bengaluru D,24,4.0,404,600,English;Kannada;Hindi,True,"Mon,Wed,Fri",SAMPLE-0376,synthetic demo data,True
+SD0377,Sample Doctor 0377,Emergency Medicine,Bengaluru,Sample Hospital Bengaluru C,10,4.1,186,600,English;Kannada;Hindi,True,"Mon,Wed,Fri",SAMPLE-0377,synthetic demo data,True
+SD0378,Sample Doctor 0378,Emergency Medicine,Bengaluru,Sample Clinic Bengaluru D,9,4.4,548,1200,English;Kannada;Hindi,True,"Mon,Wed,Fri",SAMPLE-0378,synthetic demo data,True
+SD0379,Sample Doctor 0379,Physiotherapist,Bengaluru,Sample Hospital Bengaluru A,35,4.1,883,500,English;Kannada;Hindi,False,Mon-Sat,SAMPLE-0379,synthetic demo data,True
+SD0380,Sample Doctor 0380,Physiotherapist,Bengaluru,Sample Clinic Bengaluru B,17,4.3,268,500,English;Kannada;Hindi,True,Mon-Fri,SAMPLE-0380,synthetic demo data,True
+SD0381,Sample Doctor 0381,Physiotherapist,Bengaluru,Sample Clinic Bengaluru D,25,4.0,615,600,English;Kannada;Hindi,True,"Mon,Wed,Fri",SAMPLE-0381,synthetic demo data,True
+SD0382,Sample Doctor 0382,General Physician,Hyderabad,Sample Clinic Hyderabad B,17,4.5,356,750,English;Telugu;Hindi,True,"Mon,Wed,Fri",SAMPLE-0382,synthetic demo data,True
+SD0383,Sample Doctor 0383,General Physician,Hyderabad,Sample Clinic Hyderabad B,15,3.8,197,400,English;Telugu;Hindi,True,Mon-Fri,SAMPLE-0383,synthetic demo data,True
+SD0384,Sample Doctor 0384,General Physician,Hyderabad,Sample Clinic Hyderabad D,25,3.8,169,400,English;Telugu;Hindi,False,Mon-Sat,SAMPLE-0384,synthetic demo data,True
+SD0385,Sample Doctor 0385,Pulmonologist,Hyderabad,Sample Hospital Hyderabad D,25,4.1,183,1250,English;Telugu;Hindi,False,Tue-Sun,SAMPLE-0385,synthetic demo data,True
+SD0386,Sample Doctor 0386,Pulmonologist,Hyderabad,Sample Hospital Hyderabad D,22,4.6,238,1150,English;Telugu;Hindi,False,Mon-Sat,SAMPLE-0386,synthetic demo data,True
+SD0387,Sample Doctor 0387,Pulmonologist,Hyderabad,Sample Hospital Hyderabad B,28,3.9,218,1250,English;Telugu;Hindi,True,Tue-Sun,SAMPLE-0387,synthetic demo data,True
+SD0388,Sample Doctor 0388,Cardiologist,Hyderabad,Sample Hospital Hyderabad A,17,4.6,561,750,English;Telugu;Hindi,True,Mon-Sat,SAMPLE-0388,synthetic demo data,True
+SD0389,Sample Doctor 0389,Cardiologist,Hyderabad,Sample Hospital Hyderabad B,19,4.5,47,650,English;Telugu;Hindi,True,"Mon,Wed,Fri",SAMPLE-0389,synthetic demo data,True
+SD0390,Sample Doctor 0390,Cardiologist,Hyderabad,Sample Clinic Hyderabad C,6,4.1,752,950,English;Telugu;Hindi,False,Tue-Sun,SAMPLE-0390,synthetic demo data,True
+SD0391,Sample Doctor 0391,Endocrinologist,Hyderabad,Sample Hospital Hyderabad D,27,3.9,750,1050,English;Telugu;Hindi,True,Mon-Fri,SAMPLE-0391,synthetic demo data,True
+SD0392,Sample Doctor 0392,Endocrinologist,Hyderabad,Sample Clinic Hyderabad B,22,4.0,718,700,English;Telugu;Hindi,False,Mon-Sat,SAMPLE-0392,synthetic demo data,True
+SD0393,Sample Doctor 0393,Endocrinologist,Hyderabad,Sample Clinic Hyderabad C,20,4.4,766,1250,English;Telugu;Hindi,False,Mon-Fri,SAMPLE-0393,synthetic demo data,True
+SD0394,Sample Doctor 0394,Gastroenterologist,Hyderabad,Sample Hospital Hyderabad C,19,3.9,539,1200,English;Telugu;Hindi,True,"Mon,Wed,Fri",SAMPLE-0394,synthetic demo data,True
+SD0395,Sample Doctor 0395,Gastroenterologist,Hyderabad,Sample Clinic Hyderabad B,25,4.0,636,900,English;Telugu;Hindi,True,"Mon,Wed,Fri",SAMPLE-0395,synthetic demo data,True
+SD0396,Sample Doctor 0396,Gastroenterologist,Hyderabad,Sample Hospital Hyderabad A,28,3.4,629,700,English;Telugu;Hindi,False,Tue-Sun,SAMPLE-0396,synthetic demo data,True
+SD0397,Sample Doctor 0397,Hepatologist,Hyderabad,Sample Clinic Hyderabad B,5,4.4,600,600,English;Telugu;Hindi,False,"Mon,Wed,Fri",SAMPLE-0397,synthetic demo data,True
+SD0398,Sample Doctor 0398,Hepatologist,Hyderabad,Sample Clinic Hyderabad D,3,5.0,829,1000,English;Telugu;Hindi,True,"Mon,Wed,Fri",SAMPLE-0398,synthetic demo data,True
+SD0399,Sample Doctor 0399,Hepatologist,Hyderabad,Sample Hospital Hyderabad B,25,4.7,202,950,English;Telugu;Hindi,True,Tue-Sun,SAMPLE-0399,synthetic demo data,True
+SD0400,Sample Doctor 0400,Nephrologist,Hyderabad,Sample Hospital Hyderabad B,23,4.0,620,1050,English;Telugu;Hindi,False,Tue-Sun,SAMPLE-0400,synthetic demo data,True
+SD0401,Sample Doctor 0401,Nephrologist,Hyderabad,Sample Hospital Hyderabad D,14,3.7,226,650,English;Telugu;Hindi,True,"Mon,Wed,Fri",SAMPLE-0401,synthetic demo data,True
+SD0402,Sample Doctor 0402,Urologist,Hyderabad,Sample Clinic Hyderabad D,24,4.7,548,1000,English;Telugu;Hindi,False,Mon-Fri,SAMPLE-0402,synthetic demo data,True
+SD0403,Sample Doctor 0403,Urologist,Hyderabad,Sample Hospital Hyderabad A,23,4.0,604,1100,English;Telugu;Hindi,True,Tue-Sun,SAMPLE-0403,synthetic demo data,True
+SD0404,Sample Doctor 0404,Neurologist,Hyderabad,Sample Clinic Hyderabad D,16,4.3,560,600,English;Telugu;Hindi,False,Mon-Sat,SAMPLE-0404,synthetic demo data,True
+SD0405,Sample Doctor 0405,Neurologist,Hyderabad,Sample Clinic Hyderabad B,23,4.1,435,1200,English;Telugu;Hindi,False,Mon-Sat,SAMPLE-0405,synthetic demo data,True
+SD0406,Sample Doctor 0406,Neurologist,Hyderabad,Sample Clinic Hyderabad A,16,4.1,655,1050,English;Telugu;Hindi,False,Mon-Sat,SAMPLE-0406,synthetic demo data,True
+SD0407,Sample Doctor 0407,Psychiatrist,Hyderabad,Sample Hospital Hyderabad C,28,4.5,4,1200,English;Telugu;Hindi,True,"Mon,Wed,Fri",SAMPLE-0407,synthetic demo data,True
+SD0408,Sample Doctor 0408,Psychiatrist,Hyderabad,Sample Hospital Hyderabad A,29,4.7,468,1200,English;Telugu;Hindi,False,"Mon,Wed,Fri",SAMPLE-0408,synthetic demo data,True
+SD0409,Sample Doctor 0409,Psychiatrist,Hyderabad,Sample Clinic Hyderabad D,12,4.2,406,1250,English;Telugu;Hindi,True,Mon-Fri,SAMPLE-0409,synthetic demo data,True
+SD0410,Sample Doctor 0410,Rheumatologist,Hyderabad,Sample Hospital Hyderabad A,29,4.5,175,700,English;Telugu;Hindi,False,Mon-Fri,SAMPLE-0410,synthetic demo data,True
+SD0411,Sample Doctor 0411,Rheumatologist,Hyderabad,Sample Clinic Hyderabad A,23,4.2,451,1200,English;Telugu;Hindi,False,Mon-Sat,SAMPLE-0411,synthetic demo data,True
+SD0412,Sample Doctor 0412,Rheumatologist,Hyderabad,Sample Clinic Hyderabad D,35,4.7,856,1000,English;Telugu;Hindi,True,Mon-Sat,SAMPLE-0412,synthetic demo data,True
+SD0413,Sample Doctor 0413,Orthopedist,Hyderabad,Sample Hospital Hyderabad C,29,4.1,508,1150,English;Telugu;Hindi,True,Mon-Sat,SAMPLE-0413,synthetic demo data,True
+SD0414,Sample Doctor 0414,Orthopedist,Hyderabad,Sample Clinic Hyderabad D,7,4.1,697,1250,English;Telugu;Hindi,True,"Mon,Wed,Fri",SAMPLE-0414,synthetic demo data,True
+SD0415,Sample Doctor 0415,Dermatologist,Hyderabad,Sample Hospital Hyderabad D,24,4.3,13,850,English;Telugu;Hindi,True,Mon-Fri,SAMPLE-0415,synthetic demo data,True
+SD0416,Sample Doctor 0416,Dermatologist,Hyderabad,Sample Hospital Hyderabad C,3,4.4,715,900,English;Telugu;Hindi,False,Mon-Fri,SAMPLE-0416,synthetic demo data,True
+SD0417,Sample Doctor 0417,Ophthalmologist,Hyderabad,Sample Clinic Hyderabad C,31,4.0,686,600,English;Telugu;Hindi,True,Mon-Sat,SAMPLE-0417,synthetic demo data,True
+SD0418,Sample Doctor 0418,Ophthalmologist,Hyderabad,Sample Hospital Hyderabad D,26,4.1,853,600,English;Telugu;Hindi,False,Tue-Sun,SAMPLE-0418,synthetic demo data,True
+SD0419,Sample Doctor 0419,Ophthalmologist,Hyderabad,Sample Hospital Hyderabad B,14,4.1,842,1300,English;Telugu;Hindi,True,Tue-Sun,SAMPLE-0419,synthetic demo data,True
+SD0420,Sample Doctor 0420,ENT Specialist,Hyderabad,Sample Hospital Hyderabad D,19,4.9,621,550,English;Telugu;Hindi,True,"Mon,Wed,Fri",SAMPLE-0420,synthetic demo data,True
+SD0421,Sample Doctor 0421,ENT Specialist,Hyderabad,Sample Hospital Hyderabad D,22,4.4,223,1000,English;Telugu;Hindi,False,Mon-Fri,SAMPLE-0421,synthetic demo data,True
+SD0422,Sample Doctor 0422,Infectious Disease Specialist,Hyderabad,Sample Hospital Hyderabad A,14,4.6,897,1250,English;Telugu;Hindi,True,Mon-Sat,SAMPLE-0422,synthetic demo data,True
+SD0423,Sample Doctor 0423,Infectious Disease Specialist,Hyderabad,Sample Hospital Hyderabad A,26,4.0,198,850,English;Telugu;Hindi,True,Tue-Sun,SAMPLE-0423,synthetic demo data,True
+SD0424,Sample Doctor 0424,Infectious Disease Specialist,Hyderabad,Sample Hospital Hyderabad C,22,4.2,32,1300,English;Telugu;Hindi,True,Tue-Sun,SAMPLE-0424,synthetic demo data,True
+SD0425,Sample Doctor 0425,Oncologist,Hyderabad,Sample Hospital Hyderabad D,26,4.9,642,950,English;Telugu;Hindi,False,Mon-Fri,SAMPLE-0425,synthetic demo data,True
+SD0426,Sample Doctor 0426,Oncologist,Hyderabad,Sample Hospital Hyderabad B,4,4.2,404,800,English;Telugu;Hindi,True,"Mon,Wed,Fri",SAMPLE-0426,synthetic demo data,True
+SD0427,Sample Doctor 0427,Oncologist,Hyderabad,Sample Hospital Hyderabad D,30,4.7,666,850,English;Telugu;Hindi,True,Mon-Sat,SAMPLE-0427,synthetic demo data,True
+SD0428,Sample Doctor 0428,Hematologist,Hyderabad,Sample Clinic Hyderabad A,18,4.3,414,1200,English;Telugu;Hindi,False,Mon-Sat,SAMPLE-0428,synthetic demo data,True
+SD0429,Sample Doctor 0429,Hematologist,Hyderabad,Sample Hospital Hyderabad D,27,4.4,173,1000,English;Telugu;Hindi,False,Mon-Sat,SAMPLE-0429,synthetic demo data,True
+SD0430,Sample Doctor 0430,Gynecologist,Hyderabad,Sample Clinic Hyderabad B,13,3.9,883,950,English;Telugu;Hindi,True,Mon-Sat,SAMPLE-0430,synthetic demo data,True
+SD0431,Sample Doctor 0431,Gynecologist,Hyderabad,Sample Hospital Hyderabad D,6,4.0,396,1100,English;Telugu;Hindi,True,Mon-Fri,SAMPLE-0431,synthetic demo data,True
+SD0432,Sample Doctor 0432,Gynecologist,Hyderabad,Sample Hospital Hyderabad D,24,4.6,623,1100,English;Telugu;Hindi,False,Tue-Sun,SAMPLE-0432,synthetic demo data,True
+SD0433,Sample Doctor 0433,Pediatrician,Hyderabad,Sample Clinic Hyderabad C,3,4.8,76,800,English;Telugu;Hindi,True,Mon-Fri,SAMPLE-0433,synthetic demo data,True
+SD0434,Sample Doctor 0434,Pediatrician,Hyderabad,Sample Hospital Hyderabad C,25,4.8,389,750,English;Telugu;Hindi,True,Tue-Sun,SAMPLE-0434,synthetic demo data,True
+SD0435,Sample Doctor 0435,Vascular Surgeon,Hyderabad,Sample Clinic Hyderabad A,24,4.6,153,1050,English;Telugu;Hindi,False,"Mon,Wed,Fri",SAMPLE-0435,synthetic demo data,True
+SD0436,Sample Doctor 0436,Vascular Surgeon,Hyderabad,Sample Clinic Hyderabad D,32,4.6,284,1200,English;Telugu;Hindi,True,Tue-Sun,SAMPLE-0436,synthetic demo data,True
+SD0437,Sample Doctor 0437,Emergency Medicine,Hyderabad,Sample Clinic Hyderabad B,34,4.5,54,950,English;Telugu;Hindi,False,Tue-Sun,SAMPLE-0437,synthetic demo data,True
+SD0438,Sample Doctor 0438,Emergency Medicine,Hyderabad,Sample Hospital Hyderabad B,12,4.6,820,1000,English;Telugu;Hindi,True,Mon-Sat,SAMPLE-0438,synthetic demo data,True
+SD0439,Sample Doctor 0439,Emergency Medicine,Hyderabad,Sample Hospital Hyderabad B,4,4.1,194,550,English;Telugu;Hindi,False,Mon-Fri,SAMPLE-0439,synthetic demo data,True
+SD0440,Sample Doctor 0440,Physiotherapist,Hyderabad,Sample Hospital Hyderabad B,3,4.3,327,400,English;Telugu;Hindi,False,"Mon,Wed,Fri",SAMPLE-0440,synthetic demo data,True
+SD0441,Sample Doctor 0441,Physiotherapist,Hyderabad,Sample Hospital Hyderabad B,8,5.0,158,400,English;Telugu;Hindi,False,Tue-Sun,SAMPLE-0441,synthetic demo data,True
+SD0442,Sample Doctor 0442,Physiotherapist,Hyderabad,Sample Hospital Hyderabad A,10,4.0,547,700,English;Telugu;Hindi,True,Tue-Sun,SAMPLE-0442,synthetic demo data,True
+SD0443,Sample Doctor 0443,General Physician,Chennai,Sample Hospital Chennai B,30,4.1,819,650,English;Tamil,False,"Mon,Wed,Fri",SAMPLE-0443,synthetic demo data,True
+SD0444,Sample Doctor 0444,General Physician,Chennai,Sample Hospital Chennai C,34,5.0,613,600,English;Tamil,True,"Mon,Wed,Fri",SAMPLE-0444,synthetic demo data,True
+SD0445,Sample Doctor 0445,Pulmonologist,Chennai,Sample Clinic Chennai C,15,4.5,252,1000,English;Tamil,True,"Mon,Wed,Fri",SAMPLE-0445,synthetic demo data,True
+SD0446,Sample Doctor 0446,Pulmonologist,Chennai,Sample Clinic Chennai C,24,4.5,28,900,English;Tamil,True,"Mon,Wed,Fri",SAMPLE-0446,synthetic demo data,True
+SD0447,Sample Doctor 0447,Cardiologist,Chennai,Sample Hospital Chennai A,14,3.8,550,600,English;Tamil,True,Mon-Fri,SAMPLE-0447,synthetic demo data,True
+SD0448,Sample Doctor 0448,Cardiologist,Chennai,Sample Hospital Chennai C,12,4.2,399,1250,English;Tamil,False,Mon-Fri,SAMPLE-0448,synthetic demo data,True
+SD0449,Sample Doctor 0449,Cardiologist,Chennai,Sample Hospital Chennai D,3,3.8,138,1250,English;Tamil,True,Tue-Sun,SAMPLE-0449,synthetic demo data,True
+SD0450,Sample Doctor 0450,Endocrinologist,Chennai,Sample Hospital Chennai C,15,4.4,358,700,English;Tamil,True,Mon-Fri,SAMPLE-0450,synthetic demo data,True
+SD0451,Sample Doctor 0451,Endocrinologist,Chennai,Sample Hospital Chennai A,17,4.1,424,1250,English;Tamil,True,Tue-Sun,SAMPLE-0451,synthetic demo data,True
+SD0452,Sample Doctor 0452,Endocrinologist,Chennai,Sample Clinic Chennai A,15,4.1,20,850,English;Tamil,True,"Mon,Wed,Fri",SAMPLE-0452,synthetic demo data,True
+SD0453,Sample Doctor 0453,Gastroenterologist,Chennai,Sample Hospital Chennai C,8,4.7,479,700,English;Tamil,False,Mon-Sat,SAMPLE-0453,synthetic demo data,True
+SD0454,Sample Doctor 0454,Gastroenterologist,Chennai,Sample Clinic Chennai D,14,4.2,236,950,English;Tamil,True,Mon-Sat,SAMPLE-0454,synthetic demo data,True
+SD0455,Sample Doctor 0455,Gastroenterologist,Chennai,Sample Clinic Chennai B,6,4.0,639,1000,English;Tamil,False,Tue-Sun,SAMPLE-0455,synthetic demo data,True
+SD0456,Sample Doctor 0456,Hepatologist,Chennai,Sample Clinic Chennai A,34,4.7,538,600,English;Tamil,True,"Mon,Wed,Fri",SAMPLE-0456,synthetic demo data,True
+SD0457,Sample Doctor 0457,Hepatologist,Chennai,Sample Clinic Chennai D,12,3.7,781,700,English;Tamil,True,Mon-Sat,SAMPLE-0457,synthetic demo data,True
+SD0458,Sample Doctor 0458,Hepatologist,Chennai,Sample Hospital Chennai D,16,4.6,761,800,English;Tamil,True,"Mon,Wed,Fri",SAMPLE-0458,synthetic demo data,True
+SD0459,Sample Doctor 0459,Nephrologist,Chennai,Sample Hospital Chennai D,33,4.6,47,1000,English;Tamil,True,Tue-Sun,SAMPLE-0459,synthetic demo data,True
+SD0460,Sample Doctor 0460,Nephrologist,Chennai,Sample Clinic Chennai A,18,4.3,446,950,English;Tamil,False,"Mon,Wed,Fri",SAMPLE-0460,synthetic demo data,True
+SD0461,Sample Doctor 0461,Nephrologist,Chennai,Sample Hospital Chennai A,5,4.3,279,550,English;Tamil,True,Mon-Sat,SAMPLE-0461,synthetic demo data,True
+SD0462,Sample Doctor 0462,Urologist,Chennai,Sample Clinic Chennai C,29,4.1,651,1050,English;Tamil,True,"Mon,Wed,Fri",SAMPLE-0462,synthetic demo data,True
+SD0463,Sample Doctor 0463,Urologist,Chennai,Sample Clinic Chennai D,11,4.0,122,900,English;Tamil,True,Mon-Sat,SAMPLE-0463,synthetic demo data,True
+SD0464,Sample Doctor 0464,Neurologist,Chennai,Sample Clinic Chennai D,23,4.7,493,850,English;Tamil,True,"Mon,Wed,Fri",SAMPLE-0464,synthetic demo data,True
+SD0465,Sample Doctor 0465,Neurologist,Chennai,Sample Clinic Chennai D,26,4.8,366,1150,English;Tamil,True,Mon-Sat,SAMPLE-0465,synthetic demo data,True
+SD0466,Sample Doctor 0466,Psychiatrist,Chennai,Sample Clinic Chennai A,16,4.6,507,650,English;Tamil,True,Mon-Fri,SAMPLE-0466,synthetic demo data,True
+SD0467,Sample Doctor 0467,Psychiatrist,Chennai,Sample Hospital Chennai D,4,4.0,650,700,English;Tamil,True,"Mon,Wed,Fri",SAMPLE-0467,synthetic demo data,True
+SD0468,Sample Doctor 0468,Psychiatrist,Chennai,Sample Clinic Chennai B,30,4.3,812,1000,English;Tamil,False,Tue-Sun,SAMPLE-0468,synthetic demo data,True
+SD0469,Sample Doctor 0469,Rheumatologist,Chennai,Sample Hospital Chennai C,28,4.5,326,600,English;Tamil,True,Tue-Sun,SAMPLE-0469,synthetic demo data,True
+SD0470,Sample Doctor 0470,Rheumatologist,Chennai,Sample Hospital Chennai D,29,4.9,150,550,English;Tamil,False,Mon-Fri,SAMPLE-0470,synthetic demo data,True
+SD0471,Sample Doctor 0471,Orthopedist,Chennai,Sample Hospital Chennai B,16,4.1,196,550,English;Tamil,True,Mon-Sat,SAMPLE-0471,synthetic demo data,True
+SD0472,Sample Doctor 0472,Orthopedist,Chennai,Sample Hospital Chennai A,15,4.0,406,1300,English;Tamil,False,Mon-Sat,SAMPLE-0472,synthetic demo data,True
+SD0473,Sample Doctor 0473,Orthopedist,Chennai,Sample Hospital Chennai B,27,4.1,267,1100,English;Tamil,False,Tue-Sun,SAMPLE-0473,synthetic demo data,True
+SD0474,Sample Doctor 0474,Dermatologist,Chennai,Sample Clinic Chennai A,33,4.6,430,800,English;Tamil,True,Mon-Sat,SAMPLE-0474,synthetic demo data,True
+SD0475,Sample Doctor 0475,Dermatologist,Chennai,Sample Hospital Chennai D,35,4.6,62,900,English;Tamil,False,Mon-Fri,SAMPLE-0475,synthetic demo data,True
+SD0476,Sample Doctor 0476,Ophthalmologist,Chennai,Sample Clinic Chennai C,32,4.4,722,650,English;Tamil,True,Mon-Fri,SAMPLE-0476,synthetic demo data,True
+SD0477,Sample Doctor 0477,Ophthalmologist,Chennai,Sample Hospital Chennai C,32,4.0,243,1050,English;Tamil,True,Tue-Sun,SAMPLE-0477,synthetic demo data,True
+SD0478,Sample Doctor 0478,ENT Specialist,Chennai,Sample Clinic Chennai A,23,4.3,38,800,English;Tamil,False,Mon-Fri,SAMPLE-0478,synthetic demo data,True
+SD0479,Sample Doctor 0479,ENT Specialist,Chennai,Sample Hospital Chennai B,12,4.6,514,1100,English;Tamil,True,Tue-Sun,SAMPLE-0479,synthetic demo data,True
+SD0480,Sample Doctor 0480,ENT Specialist,Chennai,Sample Hospital Chennai B,20,4.3,480,850,English;Tamil,False,Tue-Sun,SAMPLE-0480,synthetic demo data,True
+SD0481,Sample Doctor 0481,Infectious Disease Specialist,Chennai,Sample Clinic Chennai A,26,4.4,370,700,English;Tamil,False,"Mon,Wed,Fri",SAMPLE-0481,synthetic demo data,True
+SD0482,Sample Doctor 0482,Infectious Disease Specialist,Chennai,Sample Hospital Chennai D,25,3.6,738,1000,English;Tamil,True,Tue-Sun,SAMPLE-0482,synthetic demo data,True
+SD0483,Sample Doctor 0483,Oncologist,Chennai,Sample Hospital Chennai C,11,4.3,351,1300,English;Tamil,False,Mon-Fri,SAMPLE-0483,synthetic demo data,True
+SD0484,Sample Doctor 0484,Oncologist,Chennai,Sample Hospital Chennai C,6,4.3,275,650,English;Tamil,False,Tue-Sun,SAMPLE-0484,synthetic demo data,True
+SD0485,Sample Doctor 0485,Hematologist,Chennai,Sample Hospital Chennai B,19,4.6,193,850,English;Tamil,False,Mon-Fri,SAMPLE-0485,synthetic demo data,True
+SD0486,Sample Doctor 0486,Hematologist,Chennai,Sample Hospital Chennai B,7,4.5,740,900,English;Tamil,True,Mon-Sat,SAMPLE-0486,synthetic demo data,True
+SD0487,Sample Doctor 0487,Gynecologist,Chennai,Sample Hospital Chennai D,6,4.2,358,800,English;Tamil,False,Mon-Sat,SAMPLE-0487,synthetic demo data,True
+SD0488,Sample Doctor 0488,Gynecologist,Chennai,Sample Hospital Chennai C,15,4.2,348,950,English;Tamil,False,Mon-Fri,SAMPLE-0488,synthetic demo data,True
+SD0489,Sample Doctor 0489,Pediatrician,Chennai,Sample Clinic Chennai C,20,3.9,357,400,English;Tamil,True,Mon-Fri,SAMPLE-0489,synthetic demo data,True
+SD0490,Sample Doctor 0490,Pediatrician,Chennai,Sample Hospital Chennai D,34,5.0,267,900,English;Tamil,True,Mon-Fri,SAMPLE-0490,synthetic demo data,True
+SD0491,Sample Doctor 0491,Pediatrician,Chennai,Sample Hospital Chennai A,20,3.9,759,750,English;Tamil,False,Mon-Sat,SAMPLE-0491,synthetic demo data,True
+SD0492,Sample Doctor 0492,Vascular Surgeon,Chennai,Sample Hospital Chennai D,21,4.5,819,750,English;Tamil,True,Mon-Sat,SAMPLE-0492,synthetic demo data,True
+SD0493,Sample Doctor 0493,Vascular Surgeon,Chennai,Sample Hospital Chennai C,26,3.7,99,650,English;Tamil,True,Mon-Sat,SAMPLE-0493,synthetic demo data,True
+SD0494,Sample Doctor 0494,Emergency Medicine,Chennai,Sample Clinic Chennai B,21,4.1,117,700,English;Tamil,False,"Mon,Wed,Fri",SAMPLE-0494,synthetic demo data,True
+SD0495,Sample Doctor 0495,Emergency Medicine,Chennai,Sample Hospital Chennai D,27,4.3,309,750,English;Tamil,True,"Mon,Wed,Fri",SAMPLE-0495,synthetic demo data,True
+SD0496,Sample Doctor 0496,Physiotherapist,Chennai,Sample Clinic Chennai C,27,4.4,280,500,English;Tamil,False,Mon-Sat,SAMPLE-0496,synthetic demo data,True
+SD0497,Sample Doctor 0497,Physiotherapist,Chennai,Sample Hospital Chennai A,26,4.3,91,600,English;Tamil,False,Mon-Fri,SAMPLE-0497,synthetic demo data,True
+SD0498,Sample Doctor 0498,General Physician,Kolkata,Sample Hospital Kolkata A,26,4.7,371,450,English;Bengali;Hindi,True,Tue-Sun,SAMPLE-0498,synthetic demo data,True
+SD0499,Sample Doctor 0499,General Physician,Kolkata,Sample Hospital Kolkata D,11,4.1,280,450,English;Bengali;Hindi,True,"Mon,Wed,Fri",SAMPLE-0499,synthetic demo data,True
+SD0500,Sample Doctor 0500,General Physician,Kolkata,Sample Clinic Kolkata A,20,3.9,434,550,English;Bengali;Hindi,True,Mon-Fri,SAMPLE-0500,synthetic demo data,True
+SD0501,Sample Doctor 0501,Pulmonologist,Kolkata,Sample Clinic Kolkata D,14,4.5,455,550,English;Bengali;Hindi,True,"Mon,Wed,Fri",SAMPLE-0501,synthetic demo data,True
+SD0502,Sample Doctor 0502,Pulmonologist,Kolkata,Sample Hospital Kolkata D,13,4.8,155,1100,English;Bengali;Hindi,False,"Mon,Wed,Fri",SAMPLE-0502,synthetic demo data,True
+SD0503,Sample Doctor 0503,Pulmonologist,Kolkata,Sample Hospital Kolkata A,6,4.2,368,600,English;Bengali;Hindi,False,Mon-Fri,SAMPLE-0503,synthetic demo data,True
+SD0504,Sample Doctor 0504,Cardiologist,Kolkata,Sample Hospital Kolkata B,31,5.0,419,1000,English;Bengali;Hindi,False,"Mon,Wed,Fri",SAMPLE-0504,synthetic demo data,True
+SD0505,Sample Doctor 0505,Cardiologist,Kolkata,Sample Hospital Kolkata B,24,3.3,566,1200,English;Bengali;Hindi,True,Mon-Fri,SAMPLE-0505,synthetic demo data,True
+SD0506,Sample Doctor 0506,Endocrinologist,Kolkata,Sample Clinic Kolkata B,35,5.0,299,1250,English;Bengali;Hindi,True,Tue-Sun,SAMPLE-0506,synthetic demo data,True
+SD0507,Sample Doctor 0507,Endocrinologist,Kolkata,Sample Clinic Kolkata A,33,4.5,249,1200,English;Bengali;Hindi,True,Mon-Sat,SAMPLE-0507,synthetic demo data,True
+SD0508,Sample Doctor 0508,Endocrinologist,Kolkata,Sample Clinic Kolkata D,15,4.7,762,700,English;Bengali;Hindi,False,"Mon,Wed,Fri",SAMPLE-0508,synthetic demo data,True
+SD0509,Sample Doctor 0509,Gastroenterologist,Kolkata,Sample Hospital Kolkata B,9,4.5,721,850,English;Bengali;Hindi,True,Mon-Sat,SAMPLE-0509,synthetic demo data,True
+SD0510,Sample Doctor 0510,Gastroenterologist,Kolkata,Sample Clinic Kolkata A,3,4.1,208,750,English;Bengali;Hindi,True,Mon-Sat,SAMPLE-0510,synthetic demo data,True
+SD0511,Sample Doctor 0511,Gastroenterologist,Kolkata,Sample Clinic Kolkata B,14,4.2,51,1300,English;Bengali;Hindi,False,Tue-Sun,SAMPLE-0511,synthetic demo data,True
+SD0512,Sample Doctor 0512,Hepatologist,Kolkata,Sample Hospital Kolkata C,8,3.9,364,1150,English;Bengali;Hindi,False,Tue-Sun,SAMPLE-0512,synthetic demo data,True
+SD0513,Sample Doctor 0513,Hepatologist,Kolkata,Sample Clinic Kolkata B,6,4.6,588,750,English;Bengali;Hindi,True,Tue-Sun,SAMPLE-0513,synthetic demo data,True
+SD0514,Sample Doctor 0514,Nephrologist,Kolkata,Sample Clinic Kolkata A,29,4.3,497,1150,English;Bengali;Hindi,True,"Mon,Wed,Fri",SAMPLE-0514,synthetic demo data,True
+SD0515,Sample Doctor 0515,Nephrologist,Kolkata,Sample Clinic Kolkata A,7,4.2,408,1300,English;Bengali;Hindi,False,Mon-Sat,SAMPLE-0515,synthetic demo data,True
+SD0516,Sample Doctor 0516,Urologist,Kolkata,Sample Clinic Kolkata A,18,3.9,741,950,English;Bengali;Hindi,True,Mon-Fri,SAMPLE-0516,synthetic demo data,True
+SD0517,Sample Doctor 0517,Urologist,Kolkata,Sample Clinic Kolkata C,3,4.8,651,950,English;Bengali;Hindi,False,"Mon,Wed,Fri",SAMPLE-0517,synthetic demo data,True
+SD0518,Sample Doctor 0518,Neurologist,Kolkata,Sample Hospital Kolkata D,14,4.5,505,1050,English;Bengali;Hindi,False,Mon-Sat,SAMPLE-0518,synthetic demo data,True
+SD0519,Sample Doctor 0519,Neurologist,Kolkata,Sample Hospital Kolkata C,23,4.2,802,1050,English;Bengali;Hindi,True,Tue-Sun,SAMPLE-0519,synthetic demo data,True
+SD0520,Sample Doctor 0520,Psychiatrist,Kolkata,Sample Hospital Kolkata D,3,4.2,164,1000,English;Bengali;Hindi,False,"Mon,Wed,Fri",SAMPLE-0520,synthetic demo data,True
+SD0521,Sample Doctor 0521,Psychiatrist,Kolkata,Sample Clinic Kolkata B,4,4.9,566,900,English;Bengali;Hindi,True,Mon-Fri,SAMPLE-0521,synthetic demo data,True
+SD0522,Sample Doctor 0522,Rheumatologist,Kolkata,Sample Clinic Kolkata C,16,4.6,820,650,English;Bengali;Hindi,True,Mon-Fri,SAMPLE-0522,synthetic demo data,True
+SD0523,Sample Doctor 0523,Rheumatologist,Kolkata,Sample Hospital Kolkata D,32,4.1,524,1200,English;Bengali;Hindi,True,"Mon,Wed,Fri",SAMPLE-0523,synthetic demo data,True
+SD0524,Sample Doctor 0524,Orthopedist,Kolkata,Sample Hospital Kolkata D,3,4.0,420,1150,English;Bengali;Hindi,True,Tue-Sun,SAMPLE-0524,synthetic demo data,True
+SD0525,Sample Doctor 0525,Orthopedist,Kolkata,Sample Hospital Kolkata D,35,4.9,7,750,English;Bengali;Hindi,True,Mon-Sat,SAMPLE-0525,synthetic demo data,True
+SD0526,Sample Doctor 0526,Dermatologist,Kolkata,Sample Hospital Kolkata D,32,4.4,203,750,English;Bengali;Hindi,False,Mon-Fri,SAMPLE-0526,synthetic demo data,True
+SD0527,Sample Doctor 0527,Dermatologist,Kolkata,Sample Hospital Kolkata A,15,3.9,656,1150,English;Bengali;Hindi,False,Mon-Sat,SAMPLE-0527,synthetic demo data,True
+SD0528,Sample Doctor 0528,Ophthalmologist,Kolkata,Sample Hospital Kolkata B,2,4.4,487,1150,English;Bengali;Hindi,False,Tue-Sun,SAMPLE-0528,synthetic demo data,True
+SD0529,Sample Doctor 0529,Ophthalmologist,Kolkata,Sample Clinic Kolkata B,23,4.3,548,900,English;Bengali;Hindi,False,"Mon,Wed,Fri",SAMPLE-0529,synthetic demo data,True
+SD0530,Sample Doctor 0530,ENT Specialist,Kolkata,Sample Hospital Kolkata D,35,4.0,447,600,English;Bengali;Hindi,True,"Mon,Wed,Fri",SAMPLE-0530,synthetic demo data,True
+SD0531,Sample Doctor 0531,ENT Specialist,Kolkata,Sample Hospital Kolkata B,32,4.5,273,600,English;Bengali;Hindi,True,Mon-Sat,SAMPLE-0531,synthetic demo data,True
+SD0532,Sample Doctor 0532,Infectious Disease Specialist,Kolkata,Sample Hospital Kolkata A,31,4.7,656,650,English;Bengali;Hindi,True,Mon-Fri,SAMPLE-0532,synthetic demo data,True
+SD0533,Sample Doctor 0533,Infectious Disease Specialist,Kolkata,Sample Clinic Kolkata A,20,4.0,89,800,English;Bengali;Hindi,False,Mon-Fri,SAMPLE-0533,synthetic demo data,True
+SD0534,Sample Doctor 0534,Infectious Disease Specialist,Kolkata,Sample Hospital Kolkata D,17,4.2,681,950,English;Bengali;Hindi,False,Mon-Sat,SAMPLE-0534,synthetic demo data,True
+SD0535,Sample Doctor 0535,Oncologist,Kolkata,Sample Hospital Kolkata A,27,4.4,283,600,English;Bengali;Hindi,True,Mon-Sat,SAMPLE-0535,synthetic demo data,True
+SD0536,Sample Doctor 0536,Oncologist,Kolkata,Sample Clinic Kolkata C,14,3.8,201,1250,English;Bengali;Hindi,False,"Mon,Wed,Fri",SAMPLE-0536,synthetic demo data,True
+SD0537,Sample Doctor 0537,Hematologist,Kolkata,Sample Clinic Kolkata D,9,3.8,34,700,English;Bengali;Hindi,False,"Mon,Wed,Fri",SAMPLE-0537,synthetic demo data,True
+SD0538,Sample Doctor 0538,Hematologist,Kolkata,Sample Clinic Kolkata A,23,4.4,301,1050,English;Bengali;Hindi,False,Mon-Sat,SAMPLE-0538,synthetic demo data,True
+SD0539,Sample Doctor 0539,Hematologist,Kolkata,Sample Hospital Kolkata D,2,4.5,621,600,English;Bengali;Hindi,False,Mon-Sat,SAMPLE-0539,synthetic demo data,True
+SD0540,Sample Doctor 0540,Gynecologist,Kolkata,Sample Clinic Kolkata A,19,4.3,600,950,English;Bengali;Hindi,True,Tue-Sun,SAMPLE-0540,synthetic demo data,True
+SD0541,Sample Doctor 0541,Gynecologist,Kolkata,Sample Clinic Kolkata A,14,4.2,884,1150,English;Bengali;Hindi,False,"Mon,Wed,Fri",SAMPLE-0541,synthetic demo data,True
+SD0542,Sample Doctor 0542,Gynecologist,Kolkata,Sample Clinic Kolkata D,35,4.3,224,1100,English;Bengali;Hindi,False,Mon-Fri,SAMPLE-0542,synthetic demo data,True
+SD0543,Sample Doctor 0543,Pediatrician,Kolkata,Sample Hospital Kolkata C,17,4.7,37,800,English;Bengali;Hindi,False,"Mon,Wed,Fri",SAMPLE-0543,synthetic demo data,True
+SD0544,Sample Doctor 0544,Pediatrician,Kolkata,Sample Hospital Kolkata B,33,4.6,463,400,English;Bengali;Hindi,True,Mon-Fri,SAMPLE-0544,synthetic demo data,True
+SD0545,Sample Doctor 0545,Pediatrician,Kolkata,Sample Clinic Kolkata C,35,3.9,165,500,English;Bengali;Hindi,True,Tue-Sun,SAMPLE-0545,synthetic demo data,True
+SD0546,Sample Doctor 0546,Vascular Surgeon,Kolkata,Sample Hospital Kolkata D,34,3.7,563,550,English;Bengali;Hindi,False,"Mon,Wed,Fri",SAMPLE-0546,synthetic demo data,True
+SD0547,Sample Doctor 0547,Vascular Surgeon,Kolkata,Sample Clinic Kolkata C,31,4.1,796,1150,English;Bengali;Hindi,True,Mon-Sat,SAMPLE-0547,synthetic demo data,True
+SD0548,Sample Doctor 0548,Vascular Surgeon,Kolkata,Sample Hospital Kolkata C,5,4.3,496,1100,English;Bengali;Hindi,False,Tue-Sun,SAMPLE-0548,synthetic demo data,True
+SD0549,Sample Doctor 0549,Emergency Medicine,Kolkata,Sample Clinic Kolkata A,18,3.9,792,950,English;Bengali;Hindi,True,Tue-Sun,SAMPLE-0549,synthetic demo data,True
+SD0550,Sample Doctor 0550,Emergency Medicine,Kolkata,Sample Clinic Kolkata A,14,4.7,379,900,English;Bengali;Hindi,False,Tue-Sun,SAMPLE-0550,synthetic demo data,True
+SD0551,Sample Doctor 0551,Emergency Medicine,Kolkata,Sample Clinic Kolkata C,22,4.4,459,700,English;Bengali;Hindi,True,"Mon,Wed,Fri",SAMPLE-0551,synthetic demo data,True
+SD0552,Sample Doctor 0552,Physiotherapist,Kolkata,Sample Clinic Kolkata A,26,4.2,775,900,English;Bengali;Hindi,False,Mon-Sat,SAMPLE-0552,synthetic demo data,True
+SD0553,Sample Doctor 0553,Physiotherapist,Kolkata,Sample Hospital Kolkata D,23,4.2,352,750,English;Bengali;Hindi,True,Mon-Fri,SAMPLE-0553,synthetic demo data,True
+SD0554,Sample Doctor 0554,Physiotherapist,Kolkata,Sample Clinic Kolkata B,33,4.3,320,600,English;Bengali;Hindi,True,Tue-Sun,SAMPLE-0554,synthetic demo data,True
+SD0555,Sample Doctor 0555,General Physician,Pune,Sample Hospital Pune B,31,4.4,806,300,English;Hindi;Marathi,True,Mon-Sat,SAMPLE-0555,synthetic demo data,True
+SD0556,Sample Doctor 0556,General Physician,Pune,Sample Hospital Pune D,3,4.7,550,650,English;Hindi;Marathi,False,Mon-Sat,SAMPLE-0556,synthetic demo data,True
+SD0557,Sample Doctor 0557,Pulmonologist,Pune,Sample Hospital Pune D,28,3.8,825,1000,English;Hindi;Marathi,False,Mon-Sat,SAMPLE-0557,synthetic demo data,True
+SD0558,Sample Doctor 0558,Pulmonologist,Pune,Sample Hospital Pune D,12,4.2,688,1150,English;Hindi;Marathi,True,Tue-Sun,SAMPLE-0558,synthetic demo data,True
+SD0559,Sample Doctor 0559,Cardiologist,Pune,Sample Hospital Pune C,33,4.4,98,750,English;Hindi;Marathi,True,"Mon,Wed,Fri",SAMPLE-0559,synthetic demo data,True
+SD0560,Sample Doctor 0560,Endocrinologist,Pune,Sample Hospital Pune C,13,4.0,537,550,English;Hindi;Marathi,False,Mon-Fri,SAMPLE-0560,synthetic demo data,True
+SD0561,Sample Doctor 0561,Endocrinologist,Pune,Sample Hospital Pune A,16,4.5,641,1250,English;Hindi;Marathi,True,"Mon,Wed,Fri",SAMPLE-0561,synthetic demo data,True
+SD0562,Sample Doctor 0562,Gastroenterologist,Pune,Sample Clinic Pune C,11,4.6,179,600,English;Hindi;Marathi,False,Mon-Sat,SAMPLE-0562,synthetic demo data,True
+SD0563,Sample Doctor 0563,Hepatologist,Pune,Sample Hospital Pune C,6,4.7,684,1250,English;Hindi;Marathi,True,Mon-Sat,SAMPLE-0563,synthetic demo data,True
+SD0564,Sample Doctor 0564,Nephrologist,Pune,Sample Hospital Pune B,19,4.0,889,1200,English;Hindi;Marathi,True,Mon-Sat,SAMPLE-0564,synthetic demo data,True
+SD0565,Sample Doctor 0565,Nephrologist,Pune,Sample Clinic Pune D,13,4.3,239,650,English;Hindi;Marathi,True,Tue-Sun,SAMPLE-0565,synthetic demo data,True
+SD0566,Sample Doctor 0566,Urologist,Pune,Sample Clinic Pune C,22,4.2,47,1250,English;Hindi;Marathi,True,Mon-Sat,SAMPLE-0566,synthetic demo data,True
+SD0567,Sample Doctor 0567,Neurologist,Pune,Sample Hospital Pune B,11,4.5,346,950,English;Hindi;Marathi,True,"Mon,Wed,Fri",SAMPLE-0567,synthetic demo data,True
+SD0568,Sample Doctor 0568,Psychiatrist,Pune,Sample Clinic Pune C,11,4.9,573,750,English;Hindi;Marathi,False,Mon-Fri,SAMPLE-0568,synthetic demo data,True
+SD0569,Sample Doctor 0569,Rheumatologist,Pune,Sample Hospital Pune A,25,4.3,380,1200,English;Hindi;Marathi,True,Mon-Sat,SAMPLE-0569,synthetic demo data,True
+SD0570,Sample Doctor 0570,Rheumatologist,Pune,Sample Hospital Pune B,7,3.8,747,1150,English;Hindi;Marathi,False,Tue-Sun,SAMPLE-0570,synthetic demo data,True
+SD0571,Sample Doctor 0571,Orthopedist,Pune,Sample Hospital Pune C,28,4.1,257,600,English;Hindi;Marathi,False,Mon-Sat,SAMPLE-0571,synthetic demo data,True
+SD0572,Sample Doctor 0572,Dermatologist,Pune,Sample Clinic Pune D,30,4.4,531,1300,English;Hindi;Marathi,False,"Mon,Wed,Fri",SAMPLE-0572,synthetic demo data,True
+SD0573,Sample Doctor 0573,Ophthalmologist,Pune,Sample Clinic Pune C,25,4.0,798,750,English;Hindi;Marathi,True,Mon-Sat,SAMPLE-0573,synthetic demo data,True
+SD0574,Sample Doctor 0574,Ophthalmologist,Pune,Sample Clinic Pune A,35,4.2,542,650,English;Hindi;Marathi,True,Mon-Sat,SAMPLE-0574,synthetic demo data,True
+SD0575,Sample Doctor 0575,ENT Specialist,Pune,Sample Hospital Pune B,22,4.4,83,1150,English;Hindi;Marathi,True,Mon-Fri,SAMPLE-0575,synthetic demo data,True
+SD0576,Sample Doctor 0576,Infectious Disease Specialist,Pune,Sample Hospital Pune D,20,3.8,365,1200,English;Hindi;Marathi,True,Mon-Fri,SAMPLE-0576,synthetic demo data,True
+SD0577,Sample Doctor 0577,Oncologist,Pune,Sample Clinic Pune B,31,4.3,758,650,English;Hindi;Marathi,True,Tue-Sun,SAMPLE-0577,synthetic demo data,True
+SD0578,Sample Doctor 0578,Hematologist,Pune,Sample Clinic Pune B,23,3.7,765,1300,English;Hindi;Marathi,True,Mon-Fri,SAMPLE-0578,synthetic demo data,True
+SD0579,Sample Doctor 0579,Gynecologist,Pune,Sample Clinic Pune C,18,3.9,729,850,English;Hindi;Marathi,True,Tue-Sun,SAMPLE-0579,synthetic demo data,True
+SD0580,Sample Doctor 0580,Pediatrician,Pune,Sample Hospital Pune C,11,4.4,99,850,English;Hindi;Marathi,False,"Mon,Wed,Fri",SAMPLE-0580,synthetic demo data,True
+SD0581,Sample Doctor 0581,Pediatrician,Pune,Sample Hospital Pune C,24,4.2,741,800,English;Hindi;Marathi,False,Tue-Sun,SAMPLE-0581,synthetic demo data,True
+SD0582,Sample Doctor 0582,Vascular Surgeon,Pune,Sample Hospital Pune D,3,4.4,162,1200,English;Hindi;Marathi,False,Mon-Sat,SAMPLE-0582,synthetic demo data,True
+SD0583,Sample Doctor 0583,Vascular Surgeon,Pune,Sample Hospital Pune A,11,4.8,573,600,English;Hindi;Marathi,False,Mon-Sat,SAMPLE-0583,synthetic demo data,True
+SD0584,Sample Doctor 0584,Physiotherapist,Pune,Sample Clinic Pune B,14,4.8,766,550,English;Hindi;Marathi,True,"Mon,Wed,Fri",SAMPLE-0584,synthetic demo data,True
+SD0585,Sample Doctor 0585,General Physician,Jaipur,Sample Hospital Jaipur A,10,4.3,122,550,English;Hindi,True,Mon-Sat,SAMPLE-0585,synthetic demo data,True
+SD0586,Sample Doctor 0586,General Physician,Jaipur,Sample Clinic Jaipur C,8,4.2,520,700,English;Hindi,True,"Mon,Wed,Fri",SAMPLE-0586,synthetic demo data,True
+SD0587,Sample Doctor 0587,Pulmonologist,Jaipur,Sample Hospital Jaipur D,23,4.2,141,1000,English;Hindi,True,Mon-Fri,SAMPLE-0587,synthetic demo data,True
+SD0588,Sample Doctor 0588,Cardiologist,Jaipur,Sample Hospital Jaipur B,2,4.2,348,1000,English;Hindi,True,Mon-Fri,SAMPLE-0588,synthetic demo data,True
+SD0589,Sample Doctor 0589,Endocrinologist,Jaipur,Sample Clinic Jaipur A,29,4.4,174,1250,English;Hindi,True,Mon-Fri,SAMPLE-0589,synthetic demo data,True
+SD0590,Sample Doctor 0590,Gastroenterologist,Jaipur,Sample Hospital Jaipur D,26,3.8,358,1050,English;Hindi,False,Mon-Fri,SAMPLE-0590,synthetic demo data,True
+SD0591,Sample Doctor 0591,Gastroenterologist,Jaipur,Sample Hospital Jaipur D,15,4.3,454,600,English;Hindi,True,Mon-Fri,SAMPLE-0591,synthetic demo data,True
+SD0592,Sample Doctor 0592,Hepatologist,Jaipur,Sample Hospital Jaipur B,5,4.2,198,750,English;Hindi,True,Mon-Fri,SAMPLE-0592,synthetic demo data,True
+SD0593,Sample Doctor 0593,Hepatologist,Jaipur,Sample Clinic Jaipur A,19,4.0,644,600,English;Hindi,False,Mon-Sat,SAMPLE-0593,synthetic demo data,True
+SD0594,Sample Doctor 0594,Nephrologist,Jaipur,Sample Clinic Jaipur B,20,4.2,304,1050,English;Hindi,True,Mon-Sat,SAMPLE-0594,synthetic demo data,True
+SD0595,Sample Doctor 0595,Nephrologist,Jaipur,Sample Hospital Jaipur A,23,4.5,117,700,English;Hindi,True,Tue-Sun,SAMPLE-0595,synthetic demo data,True
+SD0596,Sample Doctor 0596,Urologist,Jaipur,Sample Hospital Jaipur B,13,4.6,600,550,English;Hindi,False,Tue-Sun,SAMPLE-0596,synthetic demo data,True
+SD0597,Sample Doctor 0597,Neurologist,Jaipur,Sample Clinic Jaipur B,14,4.2,9,600,English;Hindi,False,Tue-Sun,SAMPLE-0597,synthetic demo data,True
+SD0598,Sample Doctor 0598,Neurologist,Jaipur,Sample Clinic Jaipur B,18,4.0,626,800,English;Hindi,True,Mon-Fri,SAMPLE-0598,synthetic demo data,True
+SD0599,Sample Doctor 0599,Psychiatrist,Jaipur,Sample Clinic Jaipur C,4,4.6,627,800,English;Hindi,False,Mon-Fri,SAMPLE-0599,synthetic demo data,True
+SD0600,Sample Doctor 0600,Rheumatologist,Jaipur,Sample Clinic Jaipur B,24,3.7,376,700,English;Hindi,True,Mon-Fri,SAMPLE-0600,synthetic demo data,True
+SD0601,Sample Doctor 0601,Rheumatologist,Jaipur,Sample Hospital Jaipur D,34,4.2,381,1250,English;Hindi,True,Tue-Sun,SAMPLE-0601,synthetic demo data,True
+SD0602,Sample Doctor 0602,Orthopedist,Jaipur,Sample Hospital Jaipur D,22,4.4,183,900,English;Hindi,False,Mon-Fri,SAMPLE-0602,synthetic demo data,True
+SD0603,Sample Doctor 0603,Orthopedist,Jaipur,Sample Hospital Jaipur B,26,3.9,468,700,English;Hindi,False,Mon-Sat,SAMPLE-0603,synthetic demo data,True
+SD0604,Sample Doctor 0604,Dermatologist,Jaipur,Sample Hospital Jaipur B,34,4.6,455,1250,English;Hindi,False,Mon-Fri,SAMPLE-0604,synthetic demo data,True
+SD0605,Sample Doctor 0605,Ophthalmologist,Jaipur,Sample Hospital Jaipur B,32,4.6,355,1250,English;Hindi,True,Mon-Sat,SAMPLE-0605,synthetic demo data,True
+SD0606,Sample Doctor 0606,Ophthalmologist,Jaipur,Sample Clinic Jaipur B,25,4.4,245,1300,English;Hindi,True,Tue-Sun,SAMPLE-0606,synthetic demo data,True
+SD0607,Sample Doctor 0607,ENT Specialist,Jaipur,Sample Hospital Jaipur A,14,4.5,519,600,English;Hindi,True,Mon-Sat,SAMPLE-0607,synthetic demo data,True
+SD0608,Sample Doctor 0608,ENT Specialist,Jaipur,Sample Hospital Jaipur C,19,4.7,687,1200,English;Hindi,False,Tue-Sun,SAMPLE-0608,synthetic demo data,True
+SD0609,Sample Doctor 0609,Infectious Disease Specialist,Jaipur,Sample Hospital Jaipur D,9,4.5,171,800,English;Hindi,True,Mon-Fri,SAMPLE-0609,synthetic demo data,True
+SD0610,Sample Doctor 0610,Oncologist,Jaipur,Sample Hospital Jaipur B,18,4.2,782,600,English;Hindi,True,Mon-Fri,SAMPLE-0610,synthetic demo data,True
+SD0611,Sample Doctor 0611,Hematologist,Jaipur,Sample Hospital Jaipur C,18,4.4,658,1100,English;Hindi,True,Mon-Sat,SAMPLE-0611,synthetic demo data,True
+SD0612,Sample Doctor 0612,Gynecologist,Jaipur,Sample Hospital Jaipur C,25,4.1,455,850,English;Hindi,True,Mon-Fri,SAMPLE-0612,synthetic demo data,True
+SD0613,Sample Doctor 0613,Pediatrician,Jaipur,Sample Clinic Jaipur C,10,3.6,241,800,English;Hindi,False,Mon-Fri,SAMPLE-0613,synthetic demo data,True
+SD0614,Sample Doctor 0614,Vascular Surgeon,Jaipur,Sample Hospital Jaipur C,15,3.9,584,700,English;Hindi,False,"Mon,Wed,Fri",SAMPLE-0614,synthetic demo data,True
+SD0615,Sample Doctor 0615,Vascular Surgeon,Jaipur,Sample Hospital Jaipur C,23,3.8,132,700,English;Hindi,True,Mon-Fri,SAMPLE-0615,synthetic demo data,True
+SD0616,Sample Doctor 0616,Physiotherapist,Jaipur,Sample Clinic Jaipur C,6,4.1,491,900,English;Hindi,True,Tue-Sun,SAMPLE-0616,synthetic demo data,True
+SD0617,Sample Doctor 0617,Physiotherapist,Jaipur,Sample Clinic Jaipur D,2,4.1,508,750,English;Hindi,True,Mon-Sat,SAMPLE-0617,synthetic demo data,True
+SD0618,Sample Doctor 0618,General Physician,Lucknow,Sample Hospital Lucknow C,33,4.2,70,400,English;Hindi,True,Mon-Fri,SAMPLE-0618,synthetic demo data,True
+SD0619,Sample Doctor 0619,General Physician,Lucknow,Sample Hospital Lucknow A,22,4.0,395,500,English;Hindi,True,Tue-Sun,SAMPLE-0619,synthetic demo data,True
+SD0620,Sample Doctor 0620,Pulmonologist,Lucknow,Sample Clinic Lucknow A,21,4.1,799,550,English;Hindi,False,Mon-Fri,SAMPLE-0620,synthetic demo data,True
+SD0621,Sample Doctor 0621,Pulmonologist,Lucknow,Sample Hospital Lucknow B,20,4.2,597,600,English;Hindi,False,"Mon,Wed,Fri",SAMPLE-0621,synthetic demo data,True
+SD0622,Sample Doctor 0622,Cardiologist,Lucknow,Sample Hospital Lucknow C,24,4.8,534,750,English;Hindi,True,"Mon,Wed,Fri",SAMPLE-0622,synthetic demo data,True
+SD0623,Sample Doctor 0623,Endocrinologist,Lucknow,Sample Clinic Lucknow A,4,3.7,609,1150,English;Hindi,True,Mon-Sat,SAMPLE-0623,synthetic demo data,True
+SD0624,Sample Doctor 0624,Gastroenterologist,Lucknow,Sample Hospital Lucknow B,5,3.7,728,950,English;Hindi,True,Mon-Sat,SAMPLE-0624,synthetic demo data,True
+SD0625,Sample Doctor 0625,Gastroenterologist,Lucknow,Sample Clinic Lucknow C,24,3.9,514,1200,English;Hindi,True,Mon-Fri,SAMPLE-0625,synthetic demo data,True
+SD0626,Sample Doctor 0626,Hepatologist,Lucknow,Sample Clinic Lucknow D,34,4.5,484,550,English;Hindi,False,Mon-Sat,SAMPLE-0626,synthetic demo data,True
+SD0627,Sample Doctor 0627,Nephrologist,Lucknow,Sample Hospital Lucknow A,27,4.3,598,1200,English;Hindi,True,"Mon,Wed,Fri",SAMPLE-0627,synthetic demo data,True
+SD0628,Sample Doctor 0628,Urologist,Lucknow,Sample Hospital Lucknow B,13,4.5,507,850,English;Hindi,True,Mon-Sat,SAMPLE-0628,synthetic demo data,True
+SD0629,Sample Doctor 0629,Urologist,Lucknow,Sample Hospital Lucknow B,7,4.6,109,1300,English;Hindi,True,Tue-Sun,SAMPLE-0629,synthetic demo data,True
+SD0630,Sample Doctor 0630,Neurologist,Lucknow,Sample Clinic Lucknow D,22,4.2,93,1200,English;Hindi,True,"Mon,Wed,Fri",SAMPLE-0630,synthetic demo data,True
+SD0631,Sample Doctor 0631,Psychiatrist,Lucknow,Sample Clinic Lucknow C,26,4.4,437,800,English;Hindi,True,Tue-Sun,SAMPLE-0631,synthetic demo data,True
+SD0632,Sample Doctor 0632,Rheumatologist,Lucknow,Sample Clinic Lucknow A,24,4.2,848,850,English;Hindi,True,"Mon,Wed,Fri",SAMPLE-0632,synthetic demo data,True
+SD0633,Sample Doctor 0633,Rheumatologist,Lucknow,Sample Hospital Lucknow A,33,4.2,884,1100,English;Hindi,False,"Mon,Wed,Fri",SAMPLE-0633,synthetic demo data,True
+SD0634,Sample Doctor 0634,Orthopedist,Lucknow,Sample Clinic Lucknow A,27,4.2,436,750,English;Hindi,True,Mon-Sat,SAMPLE-0634,synthetic demo data,True
+SD0635,Sample Doctor 0635,Dermatologist,Lucknow,Sample Clinic Lucknow D,6,4.1,80,700,English;Hindi,False,Mon-Fri,SAMPLE-0635,synthetic demo data,True
+SD0636,Sample Doctor 0636,Ophthalmologist,Lucknow,Sample Clinic Lucknow D,26,3.9,314,1000,English;Hindi,False,Mon-Fri,SAMPLE-0636,synthetic demo data,True
+SD0637,Sample Doctor 0637,Ophthalmologist,Lucknow,Sample Hospital Lucknow C,8,4.4,205,650,English;Hindi,True,Mon-Sat,SAMPLE-0637,synthetic demo data,True
+SD0638,Sample Doctor 0638,ENT Specialist,Lucknow,Sample Hospital Lucknow A,20,3.9,805,650,English;Hindi,False,"Mon,Wed,Fri",SAMPLE-0638,synthetic demo data,True
+SD0639,Sample Doctor 0639,Infectious Disease Specialist,Lucknow,Sample Hospital Lucknow A,20,4.1,790,800,English;Hindi,False,Mon-Fri,SAMPLE-0639,synthetic demo data,True
+SD0640,Sample Doctor 0640,Infectious Disease Specialist,Lucknow,Sample Hospital Lucknow C,20,3.9,210,1250,English;Hindi,True,Mon-Fri,SAMPLE-0640,synthetic demo data,True
+SD0641,Sample Doctor 0641,Oncologist,Lucknow,Sample Clinic Lucknow B,3,4.8,440,650,English;Hindi,True,"Mon,Wed,Fri",SAMPLE-0641,synthetic demo data,True
+SD0642,Sample Doctor 0642,Oncologist,Lucknow,Sample Hospital Lucknow C,21,3.8,771,700,English;Hindi,False,"Mon,Wed,Fri",SAMPLE-0642,synthetic demo data,True
+SD0643,Sample Doctor 0643,Hematologist,Lucknow,Sample Hospital Lucknow C,9,4.3,211,950,English;Hindi,False,Mon-Fri,SAMPLE-0643,synthetic demo data,True
+SD0644,Sample Doctor 0644,Gynecologist,Lucknow,Sample Clinic Lucknow C,15,4.2,879,1200,English;Hindi,False,Tue-Sun,SAMPLE-0644,synthetic demo data,True
+SD0645,Sample Doctor 0645,Gynecologist,Lucknow,Sample Hospital Lucknow A,26,4.4,297,1150,English;Hindi,False,Mon-Fri,SAMPLE-0645,synthetic demo data,True
+SD0646,Sample Doctor 0646,Pediatrician,Lucknow,Sample Clinic Lucknow D,22,4.6,477,650,English;Hindi,False,Mon-Sat,SAMPLE-0646,synthetic demo data,True
+SD0647,Sample Doctor 0647,Vascular Surgeon,Lucknow,Sample Hospital Lucknow C,14,3.9,548,1000,English;Hindi,True,"Mon,Wed,Fri",SAMPLE-0647,synthetic demo data,True
+SD0648,Sample Doctor 0648,Vascular Surgeon,Lucknow,Sample Hospital Lucknow A,26,4.3,749,750,English;Hindi,False,Tue-Sun,SAMPLE-0648,synthetic demo data,True
+SD0649,Sample Doctor 0649,Physiotherapist,Lucknow,Sample Clinic Lucknow C,9,4.7,782,650,English;Hindi,True,Mon-Sat,SAMPLE-0649,synthetic demo data,True

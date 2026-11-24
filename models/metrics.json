@@ -1,0 +1,132 @@
+{
+  "n_rows": 349,
+  "n_diseases": 114,
+  "disease": {
+    "scores": {
+      "Logistic Regression": {
+        "top1": 0.08595988538681948,
+        "top3": 0.20057306590257878,
+        "top5": 0.27507163323782235
+      },
+      "Random Forest": {
+        "top1": 0.22922636103151864,
+        "top3": 0.27507163323782235,
+        "top5": 0.3037249283667622
+      },
+      "Extra Trees": {
+        "top1": 0.2177650429799427,
+        "top3": 0.25787965616045844,
+        "top5": 0.28939828080229224
+      },
+      "k-Nearest Neighbours": {
+        "top1": 0.22349570200573066,
+        "top3": 0.2636103151862464,
+        "top5": 0.2979942693409742
+      }
+    },
+    "best": "Random Forest",
+    "baseline_top1": 0.0659025787965616,
+    "importance": {
+      "fever": 0.044206867504656855,
+      "cough": 0.04977746440668989,
+      "fatigue": 0.04896646449396066,
+      "difficulty_breathing": 0.03172002110916803,
+      "age": 0.42416143408100887,
+      "male": 0.09917991014010548,
+      "blood_pressure": 0.10635115128539929,
+      "cholesterol_level": 0.11145222911998788,
+      "symptom_count": 0.08418445785902297
+    }
+  },
+  "risk": {
+    "scores": {
+      "Logistic Regression": {
+        "accuracy": 0.7707736389684814,
+        "macro_f1": 0.734277029397855
+      },
+      "Random Forest": {
+        "accuracy": 0.7936962750716332,
+        "macro_f1": 0.7577308902281907
+      },
+      "Gradient Boosting": {
+        "accuracy": 0.8080229226361032,
+        "macro_f1": 0.779240731090653
+      }
+    },
+    "best": "Gradient Boosting",
+    "baseline_accuracy": 0.5673352435530086,
+    "confusion_matrix": [
+      [
+        42,
+        14,
+        5
+      ],
+      [
+        7,
+        173,
+        18
+      ],
+      [
+        4,
+        19,
+        67
+      ]
+    ],
+    "labels": [
+      "Low",
+      "Medium",
+      "High"
+    ],
+    "importance": {
+      "age": 0.18117143132385255,
+      "severity_rank": 0.1245651536961341,
+      "cat_Cancer": 0.09780014334368702,
+      "cat_Infectious Disease": 0.07628574776484692,
+      "symptom_count": 0.05681657189345767,
+      "blood_pressure": 0.0458795015241112,
+      "cholesterol_level": 0.04419629935545226,
+      "male": 0.04201158720262003,
+      "cat_Respiratory": 0.03733705390818165,
+      "cough": 0.03153220576189609
+    }
+  },
+  "cv_folds": 5,
+  "symptom": {
+    "scores": {
+      "Logistic Regression": {
+        "top1": 1.0,
+        "top3": 1.0,
+        "top1_dropout": 0.959425354300136,
+        "top3_dropout": 0.995621130740525
+      },
+      "Random Forest": {
+        "top1": 1.0,
+        "top3": 1.0,
+        "top1_dropout": 0.9418883064777065,
+        "top3_dropout": 0.987931146055782
+      },
+      "Naive Bayes (Bernoulli)": {
+        "top1": 0.9923315860997864,
+        "top3": 1.0,
+        "top1_dropout": 0.9286869863456935,
+        "top3_dropout": 0.984652386807308
+      },
+      "k-Nearest Neighbours": {
+        "top1": 0.9967104553592614,
+        "top3": 1.0,
+        "top1_dropout": 0.9659936581893483,
+        "top3_dropout": 0.9857417114260447
+      }
+    },
+    "best": "Logistic Regression",
+    "info": {
+      "raw_rows": 4920,
+      "unique_rows": 304,
+      "conflicting_rows": 0,
+      "n_symptoms": 132
+    },
+    "n_diseases": 41,
+    "dropout": 0.3,
+    "baseline_top1": 0.03289473684210526
+  }
+}

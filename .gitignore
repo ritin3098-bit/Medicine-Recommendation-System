@@ -1,0 +1,7 @@
+data/app.db
+data/app.db-wal
+data/app.db-shm
+data/doctors.csv
+__pycache__/
+.pytest_cache/
+venv/
